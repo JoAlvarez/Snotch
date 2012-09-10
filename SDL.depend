@@ -1,0 +1,1560 @@
+# depslib dependency file v1.0
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\abilities.cpp
+	"abilities.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\abilities.h
+	"powers.h"
+	<vector>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\powers.h
+	"physics.h"
+	"resourcemgr.h"
+	<vector>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\physics.h
+	"detectable.h"
+	"point.h"
+	<string>
+	"window.h"
+	"resourcemgr.h"
+	<cmath>
+	"mathfunctions.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\detectable.h
+	"point.h"
+	<string>
+
+1232090970 c:\users\bubba\documents\mygames\snotch\snotch\point.h
+
+1232090970 c:\users\bubba\documents\mygames\snotch\snotch\window.h
+	<string>
+	"timer.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\timer.h
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\resourcemgr.h
+	<vector>
+	<string>
+	"image.h"
+	"audio.h"
+	"font.h"
+	"window.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\image.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<string>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\audio.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<vector>
+	"sound.h"
+	"music.h"
+	<string>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\sound.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\music.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\font.h
+	<string>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL.h>
+	<cstdlib>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\mathfunctions.h
+	"point.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\aimindicator.cpp
+	"aimindicator.h"
+	<SDL/SDL_opengl.h>
+	<cmath>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\aimindicator.h
+	"point.h"
+	"resourcemgr.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\animationmgr.cpp
+	"animationmgr.h"
+	"image.h"
+	"filenames.h"
+	<fstream>
+	<sstream>
+	<iostream>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\animationmgr.h
+	"animationsheet.h"
+	"currentstatenode.h"
+	"point.h"
+	"resourcemgr.h"
+	<SDL/SDL_opengl.h>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\animationsheet.h
+	<vector>
+	<string>
+	"stateproperties.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\stateproperties.h
+	<vector>
+	<string>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\currentstatenode.h
+	"timer.h"
+	<string>
+
+1232492552 c:\users\bubba\documents\mygames\snotch\snotch\filenames.h
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\animationsheet.cpp
+	"animationsheet.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\audio.cpp
+	"audio.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	"sound.h"
+	"music.h"
+	"mathfunctions.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\clickable.cpp
+	"clickable.h"
+	<SDL/SDL_opengl.h>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\clickable.h
+	"point.h"
+	"input.h"
+	"image.h"
+	"window.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\input.h
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	<map>
+	"window.h"
+	"joystick.h"
+	"point.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\joystick.h
+	<string>
+	<SDL/SDL.h>
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\currentstatenode.cpp
+	"currentstatenode.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\cursor.cpp
+	"cursor.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\cursor.h
+	"resourcemgr.h"
+	"input.h"
+	"window.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\detectable.cpp
+	"detectable.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\door.cpp
+	"door.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\door.h
+	"point.h"
+	"triggerable.h"
+	"resourcemgr.h"
+	"window.h"
+	"levelentities.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\triggerable.h
+	"triggerablelist.h"
+	<string>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\triggerablelist.h
+	"triggerable.h"
+	<map>
+	<string>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\levelentities.h
+	"detectable.h"
+	"resourcemgr.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\draggable.cpp
+	"draggable.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\draggable.h
+	"clickable.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\font.cpp
+	"font.h"
+	<string>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<cstdlib>
+	<sstream>
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<stdexcept>
+	<vector>
+	<stdarg.h>
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\gameobjects.cpp
+	"gameobjects.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\gameobjects.h
+	"object.h"
+	<vector>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\object.h
+	"physics.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\healthbar.cpp
+	"healthbar.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\healthbar.h
+	"resourcemgr.h"
+	"draggable.h"
+	"window.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\image.cpp
+	"image.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<cstdlib>
+	<stdio.h>
+	<string>
+	"window.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\ingamebutton.cpp
+	"ingamebutton.h"
+	"filenames.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\ingamebutton.h
+	"detectable.h"
+	"resourcemgr.h"
+	"animationmgr.h"
+	"point.h"
+	"trigger.h"
+	"levelentities.h"
+	<string>
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\trigger.h
+	"triggerablelist.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\input.cpp
+	"input.h"
+	<sstream>
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\joystick.cpp
+	"joystick.h"
+	<SDL/SDL.h>
+	<cstdlib>
+	<stdio.h>
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\levelentities.cpp
+	"levelentities.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\levelobjects.cpp
+	"levelobjects.h"
+	"door.h"
+	"ingamebutton.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\levelobjects.h
+	<fstream>
+	<string>
+	"levelentities.h"
+	<vector>
+	"point.h"
+	"resourcemgr.h"
+	"physics.h"
+	"filenames.h"
+	"object.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\livesbar.cpp
+	"livesbar.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\livesbar.h
+	"draggable.h"
+	"resourcemgr.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\main.cpp
+	<cstdlib>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<fstream>
+	<cmath>
+	<iostream>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"game.h"
+
+1232090970 c:\users\bubba\documents\mygames\snotch\snotch\game.h
+	"window.h"
+	"input.h"
+	"point.h"
+	"mathfunctions.h"
+	"resourcemgr.h"
+	"snotch.h"
+	"ai.h"
+	"enemy.h"
+	"menu.h"
+	"object.h"
+	"barrel.h"
+	"levelobjects.h"
+	"healthbar.h"
+	"livesbar.h"
+	"currentstatenode.h"
+	"animationmgr.h"
+	"ingamebutton.h"
+	"door.h"
+	"abilities.h"
+	"background.h"
+	<vector>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	"cursor.h"
+	"startmenu.h"
+	"actionbar.h"
+	"trigger.h"
+	"triggerable.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\snotch.h
+	"input.h"
+	"timer.h"
+	"animationmgr.h"
+	"resourcemgr.h"
+	"physics.h"
+	"object.h"
+	"aimindicator.h"
+	"thoughtbubble.h"
+	<SDL/SDL_opengl.h>
+	<string>
+	"levelobjects.h"
+	"abilities.h"
+
+1231820424 c:\users\bubba\documents\mygames\snotch\snotch\thoughtbubble.h
+	"point.h"
+	"resourcemgr.h"
+	"filenames.h"
+	<SDL/SDL_opengl.h>
+	<string>
+	<sstream>
+
+1232090970 c:\users\bubba\documents\mygames\snotch\snotch\ai.h
+	"physics.h"
+	"snotch.h"
+	"animationmgr.h"
+	"timer.h"
+	"window.h"
+	"abilities.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\enemy.h
+	"filenames.h"
+	"ai.h"
+
+1232090970 c:\users\bubba\documents\mygames\snotch\snotch\menu.h
+	<gl/gl.h>
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"clickable.h"
+	"filenames.h"
+	"background.h"
+
+1232857215 c:\users\bubba\documents\mygames\snotch\snotch\barrel.h
+	"physics.h"
+	"animationmgr.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\startmenu.h
+	<gl/gl.h>
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"clickable.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\mathfunctions.cpp
+	<cmath>
+	"mathfunctions.h"
+	"point.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\music.cpp
+	"music.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\object.cc
+	"object.h"
+	"global.h"
+
+1230360115 c:\users\bubba\documents\mygames\snotch\snotch\global.h
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\physics.cpp
+	"physics.h"
+	"global.h"
+
+1232090970 source:c:\users\bubba\documents\mygames\snotch\snotch\point.cpp
+	"point.h"
+
+1232489336 source:c:\users\bubba\documents\mygames\snotch\snotch\powers.cpp
+	"powers.h"
+	"global.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\resourcemgr.cpp
+	"resourcemgr.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\sound.cpp
+	"sound.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\timer.cpp
+	"timer.h"
+	<cstdlib>
+	<SDL/SDL.h>
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\trigger.cpp
+	"trigger.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\triggerable.cpp
+	"triggerable.h"
+
+1230360115 source:c:\users\bubba\documents\mygames\snotch\snotch\triggerablelist.cpp
+	"triggerablelist.h"
+
+1232090970 source:c:\users\bubba\documents\mygames\snotch\snotch\window.cpp
+	"window.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<ctime>
+	<fstream>
+	"image.h"
+	"input.h"
+
+1232090970 source:c:\users\bubba\documents\mygames\snotch\snotch\ai.cpp
+	"AI.h"
+
+1232857200 source:c:\users\bubba\documents\mygames\snotch\snotch\barrel.cpp
+	"barrel.h"
+
+1232090970 source:c:\users\bubba\documents\mygames\snotch\snotch\enemy.cpp
+	"enemy.h"
+	"global.h"
+	"filenames.h"
+
+1232483544 source:c:\users\bubba\documents\mygames\snotch\snotch\menu.cpp
+	"menu.h"
+	"point.h"
+	<shlobj.h>
+
+1231820424 source:c:\users\bubba\documents\mygames\snotch\snotch\optionsmenu.cpp
+	"optionsmenu.h"
+
+1231820424 c:\users\bubba\documents\mygames\snotch\snotch\optionsmenu.h
+	"clickable.h"
+
+1231918282 source:c:\users\bubba\documents\mygames\snotch\snotch\snotch.cpp
+	"snotch.h"
+	"image.h"
+	"filenames.h"
+	"global.h"
+	<math.h>
+	<cmath>
+
+1231820424 source:c:\users\bubba\documents\mygames\snotch\snotch\startmenu.cpp
+	"startmenu.h"
+	<time.h>
+
+1231820424 source:c:\users\bubba\documents\mygames\snotch\snotch\thoughtbubble.cpp
+	"thoughtbubble.h"
+
+1233096940 c:\users\bubba\documents\mygames\snotch\snotch\background.h
+	"resourcemgr.h"
+	"window.h"
+	"point.h"
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1232593717 source:c:\users\bubba\documents\mygames\snotch\snotch\background.cpp
+	"background.h"
+
+1232488115 source:c:\users\bubba\documents\mygames\snotch\snotch\game.cpp
+	"game.h"
+	"filenames.h"
+	<cmath>
+	"global.h"
+
+1232090970 c:\users\bubba\documents\mygames\snotch\snotch\actionbar.h
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"filenames.h"
+	"cooldown.h"
+
+1232090970 c:\users\bubba\documents\mygames\snotch\snotch\cooldown.h
+	<gl/gl.h>
+	"window.h"
+	"point.h"
+
+1232090970 source:c:\users\bubba\documents\mygames\snotch\snotch\actionbar.cpp
+	"actionbar.h"
+
+1232090970 source:c:\users\bubba\documents\mygames\snotch\snotch\cooldown.cpp
+	"cooldown.h"
+
+1233097393 source:c:\users\bubba\documents\gg\snotch\snotch\abilities.cpp
+	"abilities.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\abilities.h
+	"powers.h"
+	<vector>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\powers.h
+	"physics.h"
+	"resourcemgr.h"
+	<vector>
+
+1233646842 c:\users\bubba\documents\gg\snotch\snotch\physics.h
+	"detectable.h"
+	"point.h"
+	<string>
+	"window.h"
+	"resourcemgr.h"
+	<cmath>
+	"mathfunctions.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\detectable.h
+	"point.h"
+	<string>
+
+1232090970 c:\users\bubba\documents\gg\snotch\snotch\point.h
+
+1232090970 c:\users\bubba\documents\gg\snotch\snotch\window.h
+	<string>
+	"timer.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\timer.h
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\resourcemgr.h
+	<vector>
+	<string>
+	"image.h"
+	"audio.h"
+	"font.h"
+	"window.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\image.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<string>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\audio.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<vector>
+	"sound.h"
+	"music.h"
+	<string>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\sound.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\music.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\font.h
+	<string>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL.h>
+	<cstdlib>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\mathfunctions.h
+	"point.h"
+
+1232090970 source:c:\users\bubba\documents\gg\snotch\snotch\actionbar.cpp
+	"actionbar.h"
+
+1232090970 c:\users\bubba\documents\gg\snotch\snotch\actionbar.h
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"filenames.h"
+	"cooldown.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\input.h
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	<map>
+	"window.h"
+	"joystick.h"
+	"point.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\joystick.h
+	<string>
+	<SDL/SDL.h>
+
+1232492552 c:\users\bubba\documents\gg\snotch\snotch\filenames.h
+
+1232090970 c:\users\bubba\documents\gg\snotch\snotch\cooldown.h
+	<gl/gl.h>
+	"window.h"
+	"point.h"
+
+1232090970 source:c:\users\bubba\documents\gg\snotch\snotch\ai.cpp
+	"AI.h"
+
+1232090970 c:\users\bubba\documents\gg\snotch\snotch\ai.h
+	"physics.h"
+	"snotch.h"
+	"animationmgr.h"
+	"timer.h"
+	"window.h"
+	"abilities.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\snotch.h
+	"input.h"
+	"timer.h"
+	"animationmgr.h"
+	"resourcemgr.h"
+	"physics.h"
+	"object.h"
+	"aimindicator.h"
+	"thoughtbubble.h"
+	<SDL/SDL_opengl.h>
+	<string>
+	"levelobjects.h"
+	"abilities.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\animationmgr.h
+	"animationsheet.h"
+	"currentstatenode.h"
+	"point.h"
+	"resourcemgr.h"
+	<SDL/SDL_opengl.h>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\animationsheet.h
+	<vector>
+	<string>
+	"stateproperties.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\stateproperties.h
+	<vector>
+	<string>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\currentstatenode.h
+	"timer.h"
+	<string>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\object.h
+	"physics.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\aimindicator.h
+	"point.h"
+	"resourcemgr.h"
+
+1231820424 c:\users\bubba\documents\gg\snotch\snotch\thoughtbubble.h
+	"point.h"
+	"resourcemgr.h"
+	"filenames.h"
+	<SDL/SDL_opengl.h>
+	<string>
+	<sstream>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\levelobjects.h
+	<fstream>
+	<string>
+	"levelentities.h"
+	<vector>
+	"point.h"
+	"resourcemgr.h"
+	"physics.h"
+	"filenames.h"
+	"object.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\levelentities.h
+	"detectable.h"
+	"resourcemgr.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\aimindicator.cpp
+	"aimindicator.h"
+	<SDL/SDL_opengl.h>
+	<cmath>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\animationmgr.cpp
+	"animationmgr.h"
+	"image.h"
+	"filenames.h"
+	<fstream>
+	<sstream>
+	<iostream>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\animationsheet.cpp
+	"animationsheet.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\audio.cpp
+	"audio.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	"sound.h"
+	"music.h"
+	"mathfunctions.h"
+
+1233096940 source:c:\users\bubba\documents\gg\snotch\snotch\background.cpp
+	"background.h"
+
+1233096940 c:\users\bubba\documents\gg\snotch\snotch\background.h
+	"resourcemgr.h"
+	"window.h"
+	"point.h"
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1232857200 source:c:\users\bubba\documents\gg\snotch\snotch\barrel.cpp
+	"barrel.h"
+
+1232857215 c:\users\bubba\documents\gg\snotch\snotch\barrel.h
+	"physics.h"
+	"animationmgr.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\clickable.cpp
+	"clickable.h"
+	<SDL/SDL_opengl.h>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\clickable.h
+	"point.h"
+	"input.h"
+	"image.h"
+	"window.h"
+
+1232090970 source:c:\users\bubba\documents\gg\snotch\snotch\cooldown.cpp
+	"cooldown.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\currentstatenode.cpp
+	"currentstatenode.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\cursor.cpp
+	"cursor.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\cursor.h
+	"resourcemgr.h"
+	"input.h"
+	"window.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\detectable.cpp
+	"detectable.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\door.cpp
+	"door.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\door.h
+	"point.h"
+	"triggerable.h"
+	"resourcemgr.h"
+	"window.h"
+	"levelentities.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\triggerable.h
+	"triggerablelist.h"
+	<string>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\triggerablelist.h
+	"triggerable.h"
+	<map>
+	<string>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\draggable.cpp
+	"draggable.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\draggable.h
+	"clickable.h"
+
+1232090970 source:c:\users\bubba\documents\gg\snotch\snotch\enemy.cpp
+	"enemy.h"
+	"global.h"
+	"filenames.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\enemy.h
+	"filenames.h"
+	"ai.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\global.h
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\font.cpp
+	"font.h"
+	<string>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<cstdlib>
+	<sstream>
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<stdexcept>
+	<vector>
+	<stdarg.h>
+
+1232488115 source:c:\users\bubba\documents\gg\snotch\snotch\game.cpp
+	"game.h"
+	"filenames.h"
+	<cmath>
+	"global.h"
+
+1232090970 c:\users\bubba\documents\gg\snotch\snotch\game.h
+	"window.h"
+	"input.h"
+	"point.h"
+	"mathfunctions.h"
+	"resourcemgr.h"
+	"snotch.h"
+	"ai.h"
+	"enemy.h"
+	"menu.h"
+	"object.h"
+	"barrel.h"
+	"levelobjects.h"
+	"healthbar.h"
+	"livesbar.h"
+	"currentstatenode.h"
+	"animationmgr.h"
+	"ingamebutton.h"
+	"door.h"
+	"abilities.h"
+	"background.h"
+	<vector>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	"cursor.h"
+	"startmenu.h"
+	"actionbar.h"
+	"trigger.h"
+	"triggerable.h"
+
+1232090970 c:\users\bubba\documents\gg\snotch\snotch\menu.h
+	<gl/gl.h>
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"clickable.h"
+	"filenames.h"
+	"background.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\healthbar.h
+	"resourcemgr.h"
+	"draggable.h"
+	"window.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\livesbar.h
+	"draggable.h"
+	"resourcemgr.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\ingamebutton.h
+	"detectable.h"
+	"resourcemgr.h"
+	"animationmgr.h"
+	"point.h"
+	"trigger.h"
+	"levelentities.h"
+	<string>
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\trigger.h
+	"triggerablelist.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\startmenu.h
+	<gl/gl.h>
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"clickable.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\gameobjects.cpp
+	"gameobjects.h"
+
+1230360115 c:\users\bubba\documents\gg\snotch\snotch\gameobjects.h
+	"object.h"
+	<vector>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\healthbar.cpp
+	"healthbar.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\image.cpp
+	"image.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<cstdlib>
+	<stdio.h>
+	<string>
+	"window.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\ingamebutton.cpp
+	"ingamebutton.h"
+	"filenames.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\input.cpp
+	"input.h"
+	<sstream>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\joystick.cpp
+	"joystick.h"
+	<SDL/SDL.h>
+	<cstdlib>
+	<stdio.h>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\levelentities.cpp
+	"levelentities.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\levelobjects.cpp
+	"levelobjects.h"
+	"door.h"
+	"ingamebutton.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\livesbar.cpp
+	"livesbar.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\main.cpp
+	<cstdlib>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<fstream>
+	<cmath>
+	<iostream>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"game.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\mathfunctions.cpp
+	<cmath>
+	"mathfunctions.h"
+	"point.h"
+
+1232483544 source:c:\users\bubba\documents\gg\snotch\snotch\menu.cpp
+	"menu.h"
+	"point.h"
+	<shlobj.h>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\music.cpp
+	"music.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\object.cc
+	"object.h"
+	"global.h"
+
+1231820424 source:c:\users\bubba\documents\gg\snotch\snotch\optionsmenu.cpp
+	"optionsmenu.h"
+
+1231820424 c:\users\bubba\documents\gg\snotch\snotch\optionsmenu.h
+	"clickable.h"
+
+1232090970 source:c:\users\bubba\documents\gg\snotch\snotch\point.cpp
+	"point.h"
+
+1233097393 source:c:\users\bubba\documents\gg\snotch\snotch\powers.cpp
+	"powers.h"
+	"global.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\resourcemgr.cpp
+	"resourcemgr.h"
+
+1231918282 source:c:\users\bubba\documents\gg\snotch\snotch\snotch.cpp
+	"snotch.h"
+	"image.h"
+	"filenames.h"
+	"global.h"
+	<math.h>
+	<cmath>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\sound.cpp
+	"sound.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1231820424 source:c:\users\bubba\documents\gg\snotch\snotch\startmenu.cpp
+	"startmenu.h"
+	<time.h>
+
+1231820424 source:c:\users\bubba\documents\gg\snotch\snotch\thoughtbubble.cpp
+	"thoughtbubble.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\timer.cpp
+	"timer.h"
+	<cstdlib>
+	<SDL/SDL.h>
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\trigger.cpp
+	"trigger.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\triggerable.cpp
+	"triggerable.h"
+
+1230360115 source:c:\users\bubba\documents\gg\snotch\snotch\triggerablelist.cpp
+	"triggerablelist.h"
+
+1232090970 source:c:\users\bubba\documents\gg\snotch\snotch\window.cpp
+	"window.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<ctime>
+	<fstream>
+	"image.h"
+	"input.h"
+
+1233100993 source:c:\users\bubba\documents\games\snotch\snotch\abilities.cpp
+	"abilities.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\abilities.h
+	"powers.h"
+	<vector>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\powers.h
+	"physics.h"
+	"resourcemgr.h"
+	<vector>
+
+1233650442 c:\users\bubba\documents\games\snotch\snotch\physics.h
+	"detectable.h"
+	"point.h"
+	<string>
+	"window.h"
+	"resourcemgr.h"
+	<cmath>
+	"mathfunctions.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\detectable.h
+	"point.h"
+	<string>
+
+1232094570 c:\users\bubba\documents\games\snotch\snotch\point.h
+
+1232094570 c:\users\bubba\documents\games\snotch\snotch\window.h
+	<string>
+	"timer.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\timer.h
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\resourcemgr.h
+	<vector>
+	<string>
+	"image.h"
+	"audio.h"
+	"font.h"
+	"window.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\image.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<string>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\audio.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<vector>
+	"sound.h"
+	"music.h"
+	<string>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\sound.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\music.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\font.h
+	<string>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL.h>
+	<cstdlib>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\mathfunctions.h
+	"point.h"
+
+1232094570 source:c:\users\bubba\documents\games\snotch\snotch\actionbar.cpp
+	"actionbar.h"
+
+1232094570 c:\users\bubba\documents\games\snotch\snotch\actionbar.h
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"filenames.h"
+	"cooldown.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\input.h
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	<map>
+	"window.h"
+	"joystick.h"
+	"point.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\joystick.h
+	<string>
+	<SDL/SDL.h>
+
+1232496152 c:\users\bubba\documents\games\snotch\snotch\filenames.h
+
+1232094570 c:\users\bubba\documents\games\snotch\snotch\cooldown.h
+	<gl/gl.h>
+	"window.h"
+	"point.h"
+
+1232094570 source:c:\users\bubba\documents\games\snotch\snotch\ai.cpp
+	"AI.h"
+
+1232094570 c:\users\bubba\documents\games\snotch\snotch\ai.h
+	"physics.h"
+	"snotch.h"
+	"animationmgr.h"
+	"timer.h"
+	"window.h"
+	"abilities.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\snotch.h
+	"input.h"
+	"timer.h"
+	"animationmgr.h"
+	"resourcemgr.h"
+	"physics.h"
+	"object.h"
+	"aimindicator.h"
+	"thoughtbubble.h"
+	<SDL/SDL_opengl.h>
+	<string>
+	"levelobjects.h"
+	"abilities.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\animationmgr.h
+	"animationsheet.h"
+	"currentstatenode.h"
+	"point.h"
+	"resourcemgr.h"
+	<SDL/SDL_opengl.h>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\animationsheet.h
+	<vector>
+	<string>
+	"stateproperties.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\stateproperties.h
+	<vector>
+	<string>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\currentstatenode.h
+	"timer.h"
+	<string>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\object.h
+	"physics.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\aimindicator.h
+	"point.h"
+	"resourcemgr.h"
+
+1231824024 c:\users\bubba\documents\games\snotch\snotch\thoughtbubble.h
+	"point.h"
+	"resourcemgr.h"
+	"filenames.h"
+	<SDL/SDL_opengl.h>
+	<string>
+	<sstream>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\levelobjects.h
+	<fstream>
+	<string>
+	"levelentities.h"
+	<vector>
+	"point.h"
+	"resourcemgr.h"
+	"physics.h"
+	"filenames.h"
+	"object.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\levelentities.h
+	"detectable.h"
+	"resourcemgr.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\aimindicator.cpp
+	"aimindicator.h"
+	<SDL/SDL_opengl.h>
+	<cmath>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\animationmgr.cpp
+	"animationmgr.h"
+	"image.h"
+	"filenames.h"
+	<fstream>
+	<sstream>
+	<iostream>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\animationsheet.cpp
+	"animationsheet.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\audio.cpp
+	"audio.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	"sound.h"
+	"music.h"
+	"mathfunctions.h"
+
+1233100540 source:c:\users\bubba\documents\games\snotch\snotch\background.cpp
+	"background.h"
+
+1233100540 c:\users\bubba\documents\games\snotch\snotch\background.h
+	"resourcemgr.h"
+	"window.h"
+	"point.h"
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1232860800 source:c:\users\bubba\documents\games\snotch\snotch\barrel.cpp
+	"barrel.h"
+
+1232860815 c:\users\bubba\documents\games\snotch\snotch\barrel.h
+	"physics.h"
+	"animationmgr.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\clickable.cpp
+	"clickable.h"
+	<SDL/SDL_opengl.h>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\clickable.h
+	"point.h"
+	"input.h"
+	"image.h"
+	"window.h"
+
+1232094570 source:c:\users\bubba\documents\games\snotch\snotch\cooldown.cpp
+	"cooldown.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\currentstatenode.cpp
+	"currentstatenode.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\cursor.cpp
+	"cursor.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\cursor.h
+	"resourcemgr.h"
+	"input.h"
+	"window.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\detectable.cpp
+	"detectable.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\door.cpp
+	"door.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\door.h
+	"point.h"
+	"triggerable.h"
+	"resourcemgr.h"
+	"window.h"
+	"levelentities.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\triggerable.h
+	"triggerablelist.h"
+	<string>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\triggerablelist.h
+	"triggerable.h"
+	<map>
+	<string>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\draggable.cpp
+	"draggable.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\draggable.h
+	"clickable.h"
+
+1232094570 source:c:\users\bubba\documents\games\snotch\snotch\enemy.cpp
+	"enemy.h"
+	"global.h"
+	"filenames.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\enemy.h
+	"filenames.h"
+	"ai.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\global.h
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\font.cpp
+	"font.h"
+	<string>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<cstdlib>
+	<sstream>
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<stdexcept>
+	<vector>
+	<stdarg.h>
+
+1232491715 source:c:\users\bubba\documents\games\snotch\snotch\game.cpp
+	"game.h"
+	"filenames.h"
+	<cmath>
+	"global.h"
+
+1232094570 c:\users\bubba\documents\games\snotch\snotch\game.h
+	"window.h"
+	"input.h"
+	"point.h"
+	"mathfunctions.h"
+	"resourcemgr.h"
+	"snotch.h"
+	"ai.h"
+	"enemy.h"
+	"menu.h"
+	"object.h"
+	"barrel.h"
+	"levelobjects.h"
+	"healthbar.h"
+	"livesbar.h"
+	"currentstatenode.h"
+	"animationmgr.h"
+	"ingamebutton.h"
+	"door.h"
+	"abilities.h"
+	"background.h"
+	<vector>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	"cursor.h"
+	"startmenu.h"
+	"actionbar.h"
+	"trigger.h"
+	"triggerable.h"
+
+1232094570 c:\users\bubba\documents\games\snotch\snotch\menu.h
+	<gl/gl.h>
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"clickable.h"
+	"filenames.h"
+	"background.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\healthbar.h
+	"resourcemgr.h"
+	"draggable.h"
+	"window.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\livesbar.h
+	"draggable.h"
+	"resourcemgr.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\ingamebutton.h
+	"detectable.h"
+	"resourcemgr.h"
+	"animationmgr.h"
+	"point.h"
+	"trigger.h"
+	"levelentities.h"
+	<string>
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\trigger.h
+	"triggerablelist.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\startmenu.h
+	<gl/gl.h>
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+	"clickable.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\gameobjects.cpp
+	"gameobjects.h"
+
+1230363715 c:\users\bubba\documents\games\snotch\snotch\gameobjects.h
+	"object.h"
+	<vector>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\healthbar.cpp
+	"healthbar.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\image.cpp
+	"image.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<cstdlib>
+	<stdio.h>
+	<string>
+	"window.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\ingamebutton.cpp
+	"ingamebutton.h"
+	"filenames.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\input.cpp
+	"input.h"
+	<sstream>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\joystick.cpp
+	"joystick.h"
+	<SDL/SDL.h>
+	<cstdlib>
+	<stdio.h>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\levelentities.cpp
+	"levelentities.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\levelobjects.cpp
+	"levelobjects.h"
+	"door.h"
+	"ingamebutton.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\livesbar.cpp
+	"livesbar.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\main.cpp
+	<cstdlib>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<fstream>
+	<cmath>
+	<iostream>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"game.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\mathfunctions.cpp
+	<cmath>
+	"mathfunctions.h"
+	"point.h"
+
+1232487144 source:c:\users\bubba\documents\games\snotch\snotch\menu.cpp
+	"menu.h"
+	"point.h"
+	<shlobj.h>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\music.cpp
+	"music.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\object.cc
+	"object.h"
+	"global.h"
+
+1231824024 source:c:\users\bubba\documents\games\snotch\snotch\optionsmenu.cpp
+	"optionsmenu.h"
+
+1231824024 c:\users\bubba\documents\games\snotch\snotch\optionsmenu.h
+	"clickable.h"
+
+1233650442 source:c:\users\bubba\documents\games\snotch\snotch\physics.cpp
+	"physics.h"
+	"global.h"
+
+1232094570 source:c:\users\bubba\documents\games\snotch\snotch\point.cpp
+	"point.h"
+
+1233100993 source:c:\users\bubba\documents\games\snotch\snotch\powers.cpp
+	"powers.h"
+	"global.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\resourcemgr.cpp
+	"resourcemgr.h"
+
+1231921882 source:c:\users\bubba\documents\games\snotch\snotch\snotch.cpp
+	"snotch.h"
+	"image.h"
+	"filenames.h"
+	"global.h"
+	<math.h>
+	<cmath>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\sound.cpp
+	"sound.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1231824024 source:c:\users\bubba\documents\games\snotch\snotch\startmenu.cpp
+	"startmenu.h"
+	<time.h>
+
+1231824024 source:c:\users\bubba\documents\games\snotch\snotch\thoughtbubble.cpp
+	"thoughtbubble.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\timer.cpp
+	"timer.h"
+	<cstdlib>
+	<SDL/SDL.h>
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\trigger.cpp
+	"trigger.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\triggerable.cpp
+	"triggerable.h"
+
+1230363715 source:c:\users\bubba\documents\games\snotch\snotch\triggerablelist.cpp
+	"triggerablelist.h"
+
+1232094570 source:c:\users\bubba\documents\games\snotch\snotch\window.cpp
+	"window.h"
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<ctime>
+	<fstream>
+	"image.h"
+	"input.h"
+

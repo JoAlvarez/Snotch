@@ -1,0 +1,111 @@
+\hypertarget{class_timer}{
+\section{Timer Class Reference}
+\label{class_timer}\index{Timer@{Timer}}
+}
+Class that handles the timers.  
+
+
+{\tt \#include $<$timer.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{class_timer_5f16e8da27d2a5a5242dead46de05d97}{
+\hyperlink{class_timer_5f16e8da27d2a5a5242dead46de05d97}{Timer} ()}
+\label{class_timer_5f16e8da27d2a5a5242dead46de05d97}
+
+\begin{CompactList}\small\item\em Default constructor Creates a timer that is not started. \item\end{CompactList}\item 
+void \hyperlink{class_timer_3a8b5272198d029779dc9302a54305a8}{start} ()
+\begin{CompactList}\small\item\em Starts a stopped timer. \item\end{CompactList}\item 
+void \hyperlink{class_timer_9020542d73357a4eef512eefaf57524b}{reset} ()
+\begin{CompactList}\small\item\em Resets the timer back to zero seconds. \item\end{CompactList}\item 
+void \hyperlink{class_timer_63f0eb44b27402196590a03781515dba}{stop} ()
+\begin{CompactList}\small\item\em Stops the running timer. \item\end{CompactList}\item 
+unsigned int \hyperlink{class_timer_990f0a0980e5e9dc46f7743d378cce9f}{getTimePassed} ()
+\begin{CompactList}\small\item\em Returns the amount of miliseconds that have passed on the timer. \item\end{CompactList}\item 
+void \hyperlink{class_timer_a79670d8a0acb6167254966c763a747c}{addTime} (int iMilisecs\_\-)
+\begin{CompactList}\small\item\em Adds a certain amount of miliseconds onto the timer. \item\end{CompactList}\item 
+bool \hyperlink{class_timer_f4e764bae73f87c413e76ec640a8bdd2}{hasPassedTime} (int iMilisecs\_\-)
+\begin{CompactList}\small\item\em Checks whether or not the timer has passed a certain amount of miliseconds. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+Class that handles the timers. 
+
+Will allow the programmer to use high resolution timers. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_timer_a79670d8a0acb6167254966c763a747c}{
+\index{Timer@{Timer}!addTime@{addTime}}
+\index{addTime@{addTime}!Timer@{Timer}}
+\subsubsection[{addTime}]{\setlength{\rightskip}{0pt plus 5cm}void Timer::addTime (int {\em iMilisecs\_\-})}}
+\label{class_timer_a79670d8a0acb6167254966c763a747c}
+
+
+Adds a certain amount of miliseconds onto the timer. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em miliSecs}]The number of miliseconds to add to the timer. A negative number can be passed in to take off time. \end{description}
+\end{Desc}
+\hypertarget{class_timer_990f0a0980e5e9dc46f7743d378cce9f}{
+\index{Timer@{Timer}!getTimePassed@{getTimePassed}}
+\index{getTimePassed@{getTimePassed}!Timer@{Timer}}
+\subsubsection[{getTimePassed}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Timer::getTimePassed ()}}
+\label{class_timer_990f0a0980e5e9dc46f7743d378cce9f}
+
+
+Returns the amount of miliseconds that have passed on the timer. 
+
+\begin{Desc}
+\item[Returns:]unsigned int The number of miliseconds that have passed. \end{Desc}
+\hypertarget{class_timer_f4e764bae73f87c413e76ec640a8bdd2}{
+\index{Timer@{Timer}!hasPassedTime@{hasPassedTime}}
+\index{hasPassedTime@{hasPassedTime}!Timer@{Timer}}
+\subsubsection[{hasPassedTime}]{\setlength{\rightskip}{0pt plus 5cm}bool Timer::hasPassedTime (int {\em iMilisecs\_\-})}}
+\label{class_timer_f4e764bae73f87c413e76ec640a8bdd2}
+
+
+Checks whether or not the timer has passed a certain amount of miliseconds. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em miliSecs}]The number of miliseconds that is in question. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]bool Whether or not the timer passed that number of miliseconds. \end{Desc}
+\hypertarget{class_timer_9020542d73357a4eef512eefaf57524b}{
+\index{Timer@{Timer}!reset@{reset}}
+\index{reset@{reset}!Timer@{Timer}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}void Timer::reset ()}}
+\label{class_timer_9020542d73357a4eef512eefaf57524b}
+
+
+Resets the timer back to zero seconds. 
+
+Resets the timer back to zero seconds. This does not however stop the timer if it is running. \hypertarget{class_timer_3a8b5272198d029779dc9302a54305a8}{
+\index{Timer@{Timer}!start@{start}}
+\index{start@{start}!Timer@{Timer}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void Timer::start ()}}
+\label{class_timer_3a8b5272198d029779dc9302a54305a8}
+
+
+Starts a stopped timer. 
+
+Starts a timer that is not currently running. Will cause no effect if called on an already running timer. \hypertarget{class_timer_63f0eb44b27402196590a03781515dba}{
+\index{Timer@{Timer}!stop@{stop}}
+\index{stop@{stop}!Timer@{Timer}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void Timer::stop ()}}
+\label{class_timer_63f0eb44b27402196590a03781515dba}
+
+
+Stops the running timer. 
+
+Stops the timer if it is running. Does not reset the time back to zero. Nothing will happen if you call this on an already stopped timer. 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+\hyperlink{timer_8h}{timer.h}\item 
+timer.cpp\end{CompactItemize}

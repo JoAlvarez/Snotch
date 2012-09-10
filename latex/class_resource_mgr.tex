@@ -1,0 +1,673 @@
+\hypertarget{class_resource_mgr}{
+\section{ResourceMgr Class Reference}
+\label{class_resource_mgr}\index{ResourceMgr@{ResourceMgr}}
+}
+File for the resourceMgr.  
+
+
+{\tt \#include $<$resourcemgr.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{class_resource_mgr_df71591bd5706857b2964efc9ab9aad0}{release} ()
+\begin{CompactList}\small\item\em Releases the instance of the \hyperlink{class_resource_mgr}{ResourceMgr} object obtained. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_b77815b1a5db3d233a519a65c129c6f5}{loadSound} (string filename, string alias)
+\begin{CompactList}\small\item\em Loads a sound file. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_3511f45844dc761fce18bcbb490b2782}{loadMusic} (string filename, string alias)
+\begin{CompactList}\small\item\em Loads a music file. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_c1db8b4941088c629ec264d6431ad68f}{loadImage} (string filename, string alias)
+\begin{CompactList}\small\item\em Loads an image file. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_58fc2207c264aa0bd958c4e1a6fe3307}{loadFont} (string filename, string alias, int size)
+\begin{CompactList}\small\item\em Loads an font file. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_1122bf9ce3cbcebc6978efa63904dcac}{playSound} (string alias)
+\begin{CompactList}\small\item\em Plays a sound at full volume through all speakers. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_9b916235594f034f55da0570182ca429}{playSound3D} (string alias, double xEar, double yEar, double xSrc, double ySrc)
+\begin{CompactList}\small\item\em Plays a sound through the speakers at a given location. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_27e40623d8659a8ee488550a4f79913e}{playMusic} (string alias)
+\begin{CompactList}\small\item\em Plays a music file. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_c07602fe156a2903fa6bbcb679ef74ea}{playMusicRepeat} (string alias, int numLoops)
+\begin{CompactList}\small\item\em Plays a music file multiple times. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_3202543d74c502aeb3bd1990f1137236}{playMusicFade} (string alias, int numLoops, int miliSecs)
+\begin{CompactList}\small\item\em Fades in a music file that plays multiple times. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_828047831e8668f7189770e45afa50c3}{playMusicFrom} (string alias, int numLoops, double position)
+\begin{CompactList}\small\item\em Plays a music file multiple times while starting from a given position. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_ccdc08e8b11c17fb10ed93b7d51e45b0}{playMusicFadeFrom} (string alias, int numLoops, double position, int miliSecs)
+\begin{CompactList}\small\item\em Plays a music file multiple times while starting from a. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_f3b6d92284ff1e5e9238adbf810cbd48}{pauseMusic} ()
+\begin{CompactList}\small\item\em Pauses any music playing. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_f05542181d4d0464f549a1acac304151}{resumeMusic} ()
+\begin{CompactList}\small\item\em Resumes any paused music. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_c6c4165497719f7c5c523decb5dfe5fa}{stopMusic} ()
+\begin{CompactList}\small\item\em Stops any playing music. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_cdafe80888ac74a8eee3665b3cc31029}{fadeOutMusic} (int miliSecs)
+\begin{CompactList}\small\item\em Fades out music over a given time. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_79ba3b60c9aa385d450bb29e6404582f}{setMaxSoundDistance} (double distance)
+\begin{CompactList}\small\item\em Sets the maximum distance to where 3D sound is heard. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_d1461da9add565c7a7c363da051c8111}{setMaxFullHearDistance} (double distance)
+\begin{CompactList}\small\item\em Sets the maximum distance that a sound is still heard at full volume. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_95a5d22ee4e147ea77268a5e2aab8659}{drawImage} (string alias, double leftX, double rightX, double lowerY, double upperY)
+\begin{CompactList}\small\item\em Draws an image on the screen to the given coordinates. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_69cd8853048f2a2b3828e3a10b34812e}{drawImage} (string alias, double angle, double leftX, double rightX, double lowerY, double upperY)
+\begin{CompactList}\small\item\em Draws an image on the screen to the given coordinates and rotated by a given angle. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_1af447bb573344a7b20e3b5f6ffd1fe2}{drawImage} (string alias, double leftX, double rightX, double leftY, double upperY, double leftX\_\-TexCoord, double rightX\_\-TexCoord, double lowerY\_\-TexCoord, double upperY\_\-TexCoord)
+\begin{CompactList}\small\item\em Draws a section of an image on the screen to the given coordinates. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_4a7ff6c298fec087d6080bbb46bea663}{drawImage} (string alias, double angle, double leftX, double rightX, double lowerY, double upperY, double leftX\_\-TexCoord, double rightX\_\-TexCoord, double lowerY\_\-TexCoord, double upperY\_\-TexCoord)
+\begin{CompactList}\small\item\em Draws a section of an image on the screen to the given coordinates and rotated by a given angle. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_69697bb29673dc8ef6a582901d456807}{drawImageOverlay} (string alias, double percentLeftX, double percentRightX, double percentLowerY, double percentUpperY)
+\begin{CompactList}\small\item\em Draws an image on the screen to secific screen values. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_5294405787589cf25735ba6880e50ab5}{drawImageOverlay} (string alias, double angle, double leftX, double rightX, double lowerY, double upperY)
+\begin{CompactList}\small\item\em Draws an image on the screen to secific screen values and rotated by a given amount. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_49b84d0374dd148dd3da6924470950df}{drawImageOverlay} (string alias, double leftX, double rightX, double leftY, double upperY, double leftX\_\-TexCoord, double rightX\_\-TexCoord, double lowerY\_\-TexCoord, double upperY\_\-TexCoord)
+\begin{CompactList}\small\item\em Draws a section of an image on the screen to secific screen values. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_e6490546240c374d9886751f2f4cba80}{drawImageOverlay} (string alias, double angle, double leftX, double rightX, double lowerY, double upperY, double leftX\_\-TexCoord, double rightX\_\-TexCoord, double lowerY\_\-TexCoord, double upperY\_\-TexCoord)
+\begin{CompactList}\small\item\em Draws a section of an image on the screen to secific screen values and being rotated. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_4660091df459dc3d0932663aa9156591}{drawText} (string alias, string text, double x, double y)
+\begin{CompactList}\small\item\em Draws character text to the screen starting at specified values. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_410b4d2bae7cd991d1f7095a7458ec30}{drawText} (string alias, int numText, double x, double y)
+\begin{CompactList}\small\item\em Draws an integer to the screen starting at specified values. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_d326c9c69e0f7128ced33c5544b31708}{drawText} (string alias, unsigned int numText, double x, double y)
+\begin{CompactList}\small\item\em Draws an unsigned integer to the screen starting at specified values. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_6859acf90546fb86276d6e680fdeae1a}{drawText} (string alias, double numText, double x, double y)
+\begin{CompactList}\small\item\em Draws a double to the screen starting at specified values. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_cc2c71fee0d3218a25c1b5fceb6dca46}{drawTextOverlay} (string alias, string text, double percentX, double percentY)
+\begin{CompactList}\small\item\em Draws character text to the screen starting at specified screen percentages. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_45f157d11c70e86e4334b4378e1b8ac6}{drawTextOverlay} (string alias, int numText, double percentX, double percentY)
+\begin{CompactList}\small\item\em Draws an integer to the screen starting at specified screen percentages. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_180e76776a6818756cfacb4fe0c2e430}{drawTextOverlay} (string alias, unsigned int numText, double percentX, double percentY)
+\begin{CompactList}\small\item\em Draws an unsigned integer to the screen starting at specified screen percentages. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_2be88222637af2030e608e397cfdd89b}{drawTextOverlay} (string alias, double numText, double percentX, double percentY)
+\begin{CompactList}\small\item\em Draws a double to the screen starting at specified screen percentages. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_c199d347884e8187eecbcb753cc57391}{deleteImage} (string alias)
+\begin{CompactList}\small\item\em Frees a specific image from memory. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_bf514587922758b910af8f728e452020}{deleteMusic} (string alias)
+\begin{CompactList}\small\item\em Frees a specific music from memory. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_fe32796d9e6aad358646f8e9463c77a8}{deleteSound} (string alias)
+\begin{CompactList}\small\item\em Frees a specific sound from memory. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_5c4a5772b6afa45af23170b0dc53c9d7}{deleteFont} (string alias)
+\begin{CompactList}\small\item\em Frees a specific font from memory. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_4e46b2808b9ff113d2a3248c9adfe82e}{deleteAllImages} ()
+\begin{CompactList}\small\item\em Frees all loaded images from memory. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_8e5158a10ed4fb6488e6f4245645c546}{deleteAllMusic} ()
+\begin{CompactList}\small\item\em Frees all loaded music from memory. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_392062943a324c74e3b4eae021dd0f17}{deleteAllSounds} ()
+\begin{CompactList}\small\item\em Frees all loaded sounds from memory. \item\end{CompactList}\item 
+void \hyperlink{class_resource_mgr_f32105981599e95feec6b53cb699b8ec}{deleteAllFonts} ()
+\begin{CompactList}\small\item\em Frees all loaded fonts from memory. \item\end{CompactList}\end{CompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{CompactItemize}
+\item 
+static \hyperlink{class_resource_mgr}{ResourceMgr} $\ast$ \hyperlink{class_resource_mgr_ec5d2a10ae64caa3ad718ba9881acd0a}{getInstance} ()
+\begin{CompactList}\small\item\em Gets the instance of the \hyperlink{class_resource_mgr}{ResourceMgr} object. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+File for the resourceMgr. 
+
+This will take care of all the loading and playing/drawing of sound, music, image, and font files that are used for the program. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_resource_mgr_f32105981599e95feec6b53cb699b8ec}{
+\index{ResourceMgr@{ResourceMgr}!deleteAllFonts@{deleteAllFonts}}
+\index{deleteAllFonts@{deleteAllFonts}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{deleteAllFonts}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::deleteAllFonts ()}}
+\label{class_resource_mgr_f32105981599e95feec6b53cb699b8ec}
+
+
+Frees all loaded fonts from memory. 
+
+This will unload all the loaded fonts from memory. Any want to draw text after this requires reloading the fonts using the loadFont function. \hypertarget{class_resource_mgr_4e46b2808b9ff113d2a3248c9adfe82e}{
+\index{ResourceMgr@{ResourceMgr}!deleteAllImages@{deleteAllImages}}
+\index{deleteAllImages@{deleteAllImages}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{deleteAllImages}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::deleteAllImages ()}}
+\label{class_resource_mgr_4e46b2808b9ff113d2a3248c9adfe82e}
+
+
+Frees all loaded images from memory. 
+
+This will unload all the loaded images from memory. Any want to draw images after this requires reloading the sounds using the loadImage function. \hypertarget{class_resource_mgr_8e5158a10ed4fb6488e6f4245645c546}{
+\index{ResourceMgr@{ResourceMgr}!deleteAllMusic@{deleteAllMusic}}
+\index{deleteAllMusic@{deleteAllMusic}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{deleteAllMusic}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::deleteAllMusic ()}}
+\label{class_resource_mgr_8e5158a10ed4fb6488e6f4245645c546}
+
+
+Frees all loaded music from memory. 
+
+This will unload all the loaded music from memory. Any want to play music after this requires reloading music using the loadMusic function. \hypertarget{class_resource_mgr_392062943a324c74e3b4eae021dd0f17}{
+\index{ResourceMgr@{ResourceMgr}!deleteAllSounds@{deleteAllSounds}}
+\index{deleteAllSounds@{deleteAllSounds}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{deleteAllSounds}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::deleteAllSounds ()}}
+\label{class_resource_mgr_392062943a324c74e3b4eae021dd0f17}
+
+
+Frees all loaded sounds from memory. 
+
+This will unload all the loaded sounds from memory. Any want to play sounds after this requires reloading the sounds using the loadSound function. \hypertarget{class_resource_mgr_5c4a5772b6afa45af23170b0dc53c9d7}{
+\index{ResourceMgr@{ResourceMgr}!deleteFont@{deleteFont}}
+\index{deleteFont@{deleteFont}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{deleteFont}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::deleteFont (string {\em alias})}}
+\label{class_resource_mgr_5c4a5772b6afa45af23170b0dc53c9d7}
+
+
+Frees a specific font from memory. 
+
+This will unload the font that matches the given alias from memory. Any want to draw with this font afterward requires reloading it using loadFont. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the font file. Should match the alias that was passed in during loadFont for that font. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_c199d347884e8187eecbcb753cc57391}{
+\index{ResourceMgr@{ResourceMgr}!deleteImage@{deleteImage}}
+\index{deleteImage@{deleteImage}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{deleteImage}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::deleteImage (string {\em alias})}}
+\label{class_resource_mgr_c199d347884e8187eecbcb753cc57391}
+
+
+Frees a specific image from memory. 
+
+This will unload the image that matches the given alias from memory. Any want to draw this image afterward requires reloading it using loadImage. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the image file. Should match the alias that was passed in during loadImage for that image. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_bf514587922758b910af8f728e452020}{
+\index{ResourceMgr@{ResourceMgr}!deleteMusic@{deleteMusic}}
+\index{deleteMusic@{deleteMusic}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{deleteMusic}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::deleteMusic (string {\em alias})}}
+\label{class_resource_mgr_bf514587922758b910af8f728e452020}
+
+
+Frees a specific music from memory. 
+
+This will unload the music that matches the given alias from memory. Any want to play this music afterward requires reloading it using loadMusic. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_fe32796d9e6aad358646f8e9463c77a8}{
+\index{ResourceMgr@{ResourceMgr}!deleteSound@{deleteSound}}
+\index{deleteSound@{deleteSound}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{deleteSound}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::deleteSound (string {\em alias})}}
+\label{class_resource_mgr_fe32796d9e6aad358646f8e9463c77a8}
+
+
+Frees a specific sound from memory. 
+
+This will unload the sound that matches the given alias from memory. Any want to play this sound afterward requires reloading it using loadSound. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the sound file. Should match the alias that was passed in during loadSound for that sound. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_4a7ff6c298fec087d6080bbb46bea663}{
+\index{ResourceMgr@{ResourceMgr}!drawImage@{drawImage}}
+\index{drawImage@{drawImage}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawImage}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawImage (string {\em alias}, \/  double {\em angle}, \/  double {\em leftX}, \/  double {\em rightX}, \/  double {\em lowerY}, \/  double {\em upperY}, \/  double {\em leftX\_\-TexCoord}, \/  double {\em rightX\_\-TexCoord}, \/  double {\em lowerY\_\-TexCoord}, \/  double {\em upperY\_\-TexCoord})}}
+\label{class_resource_mgr_4a7ff6c298fec087d6080bbb46bea663}
+
+
+Draws a section of an image on the screen to the given coordinates and rotated by a given angle. 
+
+Draws a section of a image that cooresponds to the given alias in the rectangle specified by the given coordinates and rotated by the given angle amount. The way the section of image is secified is through percentages along the x and y coordinates of the image. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The alias that cooresponds the desired image to draw. \item[{\em angle}]The angle amount the image will be rotated. Expressed in degrees. \item[{\em leftX}]The left x coordinate of the rectangle the image will be drawn in. \item[{\em rightX}]The right x coordinate of the rectangle the image will be drawn in. \item[{\em lowerY}]The lower y coordinate of the rectangle the image will be drawn in. \item[{\em upperY}]The upper y coordinate of the rectangle the image will be drawn in. \item[{\em leftX\_\-TexCoord}]The left x percentage starting point of the section of image that is desired to be drawn. 0.0 means the far left of the texture, 1.0 means the far right, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em rightX\_\-TexCoord}]The right x percentage ending point of the section of image that is desired to be drawn. 0.0 means the far left of the texture, 1.0 means the far right, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em lowerY\_\-TexCoord}]The lower y percentage starting point of the section of image that is desired to be drawn. 0.0 means the bottom of the texture, 1.0 means the top, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em upperY\_\-TexCoord}]The upper y percentage ending point of the section of image that is desired to be drawn. 0.0 means the bottom of the texture, 1.0 means the top, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_1af447bb573344a7b20e3b5f6ffd1fe2}{
+\index{ResourceMgr@{ResourceMgr}!drawImage@{drawImage}}
+\index{drawImage@{drawImage}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawImage}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawImage (string {\em alias}, \/  double {\em leftX}, \/  double {\em rightX}, \/  double {\em leftY}, \/  double {\em upperY}, \/  double {\em leftX\_\-TexCoord}, \/  double {\em rightX\_\-TexCoord}, \/  double {\em lowerY\_\-TexCoord}, \/  double {\em upperY\_\-TexCoord})}}
+\label{class_resource_mgr_1af447bb573344a7b20e3b5f6ffd1fe2}
+
+
+Draws a section of an image on the screen to the given coordinates. 
+
+Draws a section of a image that cooresponds to the given alias in the rectangle specified by the given coordinates. The way the section of image is secified is through percentages along the x and y coordinates of the image. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The alias that cooresponds the desired image to draw. \item[{\em leftX}]The left x coordinate of the rectangle the image will be drawn in. \item[{\em rightX}]The right x coordinate of the rectangle the image will be drawn in. \item[{\em lowerY}]The lower y coordinate of the rectangle the image will be drawn in. \item[{\em upperY}]The upper y coordinate of the rectangle the image will be drawn in. \item[{\em leftX\_\-TexCoord}]The left x percentage starting point of the section of image that is desired to be drawn. 0.0 means the far left of the texture, 1.0 means the far right, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em rightX\_\-TexCoord}]The right x percentage ending point of the section of image that is desired to be drawn. 0.0 means the far left of the texture, 1.0 means the far right, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em lowerY\_\-TexCoord}]The lower y percentage starting point of the section of image that is desired to be drawn. 0.0 means the bottom of the texture, 1.0 means the top, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em upperY\_\-TexCoord}]The upper y percentage ending point of the section of image that is desired to be drawn. 0.0 means the bottom of the texture, 1.0 means the top, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_69cd8853048f2a2b3828e3a10b34812e}{
+\index{ResourceMgr@{ResourceMgr}!drawImage@{drawImage}}
+\index{drawImage@{drawImage}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawImage}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawImage (string {\em alias}, \/  double {\em angle}, \/  double {\em leftX}, \/  double {\em rightX}, \/  double {\em lowerY}, \/  double {\em upperY})}}
+\label{class_resource_mgr_69cd8853048f2a2b3828e3a10b34812e}
+
+
+Draws an image on the screen to the given coordinates and rotated by a given angle. 
+
+Draws an image that cooresponds to the given alias in the rectangle specified by the given coordinates and rotated by the given angle amount. The image will stretch to fit the rectangle. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The alias that cooresponds the desired image to draw. \item[{\em angle}]The angle amount the image will be rotated. Expressed in degrees. \item[{\em leftX}]The left x coordinate of the rectangle the image will be drawn in. \item[{\em rightX}]The right x coordinate of the rectangle the image will be drawn in. \item[{\em lowerY}]The lower y coordinate of the rectangle the image will be drawn in. \item[{\em upperY}]The upper y coordinate of the rectangle the image will be drawn in. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_95a5d22ee4e147ea77268a5e2aab8659}{
+\index{ResourceMgr@{ResourceMgr}!drawImage@{drawImage}}
+\index{drawImage@{drawImage}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawImage}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawImage (string {\em alias}, \/  double {\em leftX}, \/  double {\em rightX}, \/  double {\em lowerY}, \/  double {\em upperY})}}
+\label{class_resource_mgr_95a5d22ee4e147ea77268a5e2aab8659}
+
+
+Draws an image on the screen to the given coordinates. 
+
+Draws an image that cooresponds to the given alias in the rectangle specified by the given coordinates. The image will stretch to fit the rectangle. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The alias that cooresponds the desired image to draw. \item[{\em leftX}]The left x coordinate of the rectangle the image will be drawn in. \item[{\em rightX}]The right x coordinate of the rectangle the image will be drawn in. \item[{\em lowerY}]The lower y coordinate of the rectangle the image will be drawn in. \item[{\em upperY}]The upper y coordinate of the rectangle the image will be drawn in. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_e6490546240c374d9886751f2f4cba80}{
+\index{ResourceMgr@{ResourceMgr}!drawImageOverlay@{drawImageOverlay}}
+\index{drawImageOverlay@{drawImageOverlay}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawImageOverlay}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawImageOverlay (string {\em alias}, \/  double {\em angle}, \/  double {\em leftX}, \/  double {\em rightX}, \/  double {\em lowerY}, \/  double {\em upperY}, \/  double {\em leftX\_\-TexCoord}, \/  double {\em rightX\_\-TexCoord}, \/  double {\em lowerY\_\-TexCoord}, \/  double {\em upperY\_\-TexCoord})}}
+\label{class_resource_mgr_e6490546240c374d9886751f2f4cba80}
+
+
+Draws a section of an image on the screen to secific screen values and being rotated. 
+
+Draws a section of an image that cooresponds to the given alias in the rectangle specified by the given window percentage coordinates and rotated by a given angle amount. The image will stretch to fit the rectangle. The way the section of image is secified is through percentages along the x and y coordinates of the image. The image will be in the same spot regardless the coordinate system that is being used. Suggested use for this would thinks like user interfaces and stats. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The alias that cooresponds the desired image to draw. \item[{\em angle}]The angle amount to rotate the image expressed in degrees. \item[{\em percentageLeftX}]The left x percentage of the screen the image will be drawn in. \item[{\em percentageRightX}]The right x percentage of the screen the image will be drawn in. \item[{\em percentageLowerY}]The lower y percentage of the screen the image will be drawn in. \item[{\em percentageUpperY}]The upper y percentage of the screen the image will be drawn in. \item[{\em leftX\_\-TexCoord}]The left x percentage starting point of the section of image that is desired to be drawn. 0.0 means the far left of the texture, 1.0 means the far right, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em rightX\_\-TexCoord}]The right x percentage ending point of the section of image that is desired to be drawn. 0.0 means the far left of the texture, 1.0 means the far right, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em lowerY\_\-TexCoord}]The lower y percentage starting point of the section of image that is desired to be drawn. 0.0 means the bottom of the texture, 1.0 means the top, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em upperY\_\-TexCoord}]The upper y percentage ending point of the section of image that is desired to be drawn. 0.0 means the bottom of the texture, 1.0 means the top, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_49b84d0374dd148dd3da6924470950df}{
+\index{ResourceMgr@{ResourceMgr}!drawImageOverlay@{drawImageOverlay}}
+\index{drawImageOverlay@{drawImageOverlay}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawImageOverlay}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawImageOverlay (string {\em alias}, \/  double {\em leftX}, \/  double {\em rightX}, \/  double {\em leftY}, \/  double {\em upperY}, \/  double {\em leftX\_\-TexCoord}, \/  double {\em rightX\_\-TexCoord}, \/  double {\em lowerY\_\-TexCoord}, \/  double {\em upperY\_\-TexCoord})}}
+\label{class_resource_mgr_49b84d0374dd148dd3da6924470950df}
+
+
+Draws a section of an image on the screen to secific screen values. 
+
+Draws a section of an image that cooresponds to the given alias in the rectangle specified by the given window percentage coordinates. The image will stretch to fit the rectangle. The way the section of image is secified is through percentages along the x and y coordinates of the image. The image will be in the same spot regardless the coordinate system that is being used. Suggested use for this would thinks like user interfaces and stats. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The alias that cooresponds the desired image to draw. \item[{\em percentageLeftX}]The left x percentage of the screen the image will be drawn in. \item[{\em percentageRightX}]The right x percentage of the screen the image will be drawn in. \item[{\em percentageLowerY}]The lower y percentage of the screen the image will be drawn in. \item[{\em percentageUpperY}]The upper y percentage of the screen the image will be drawn in. \item[{\em leftX\_\-TexCoord}]The left x percentage starting point of the section of image that is desired to be drawn. 0.0 means the far left of the texture, 1.0 means the far right, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em rightX\_\-TexCoord}]The right x percentage ending point of the section of image that is desired to be drawn. 0.0 means the far left of the texture, 1.0 means the far right, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em lowerY\_\-TexCoord}]The lower y percentage starting point of the section of image that is desired to be drawn. 0.0 means the bottom of the texture, 1.0 means the top, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \item[{\em upperY\_\-TexCoord}]The upper y percentage ending point of the section of image that is desired to be drawn. 0.0 means the bottom of the texture, 1.0 means the top, 0.5 means the middle. Texture wrapping is allowed so values like 1.5 and -0.25 are applicable. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_5294405787589cf25735ba6880e50ab5}{
+\index{ResourceMgr@{ResourceMgr}!drawImageOverlay@{drawImageOverlay}}
+\index{drawImageOverlay@{drawImageOverlay}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawImageOverlay}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawImageOverlay (string {\em alias}, \/  double {\em angle}, \/  double {\em leftX}, \/  double {\em rightX}, \/  double {\em lowerY}, \/  double {\em upperY})}}
+\label{class_resource_mgr_5294405787589cf25735ba6880e50ab5}
+
+
+Draws an image on the screen to secific screen values and rotated by a given amount. 
+
+Draws an image that cooresponds to the given alias in the rectangle specified by the given window percentage coordinates and rotated by a given angle amount. The image will stretch to fit the rectangle. The image will be in the same spot regardless the coordinate system that is being used. Suggested use for this would thinks like user interfaces and stats. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The alias that cooresponds the desired image to draw. \item[{\em angle}]The angle amount to rotate the image expressed in degrees. \item[{\em percentageLeftX}]The left x percentage of the screen the image will be drawn in. \item[{\em percentageRightX}]The right x percentage of the screen the image will be drawn in. \item[{\em percentageLowerY}]The lower y percentage of the screen the image will be drawn in. \item[{\em percentageUpperY}]The upper y percentage of the screen the image will be drawn in. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_69697bb29673dc8ef6a582901d456807}{
+\index{ResourceMgr@{ResourceMgr}!drawImageOverlay@{drawImageOverlay}}
+\index{drawImageOverlay@{drawImageOverlay}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawImageOverlay}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawImageOverlay (string {\em alias}, \/  double {\em percentLeftX}, \/  double {\em percentRightX}, \/  double {\em percentLowerY}, \/  double {\em percentUpperY})}}
+\label{class_resource_mgr_69697bb29673dc8ef6a582901d456807}
+
+
+Draws an image on the screen to secific screen values. 
+
+Draws an image that cooresponds to the given alias in the rectangle specified by the given window percentage coordinates. The image will stretch to fit the rectangle. The image will be in the same spot regardless the coordinate system that is being used. Suggested use for this would thinks like user interfaces and stats. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The alias that cooresponds the desired image to draw. \item[{\em percentageLeftX}]The left x percentage of the screen the image will be drawn in. \item[{\em percentageRightX}]The right x percentage of the screen the image will be drawn in. \item[{\em percentageLowerY}]The lower y percentage of the screen the image will be drawn in. \item[{\em percentageUpperY}]The upper y percentage of the screen the image will be drawn in. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_6859acf90546fb86276d6e680fdeae1a}{
+\index{ResourceMgr@{ResourceMgr}!drawText@{drawText}}
+\index{drawText@{drawText}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawText}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawText (string {\em alias}, \/  double {\em numText}, \/  double {\em x}, \/  double {\em y})}}
+\label{class_resource_mgr_6859acf90546fb86276d6e680fdeae1a}
+
+
+Draws a double to the screen starting at specified values. 
+
+Draws the double to the screen with the lower left starting point of the text provided. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The reference name of the font previously loaded. \item[{\em numText}]The double that is desired to be outputted to the screen. \item[{\em x}]The left x starting point of where the text will be drawn from. \item[{\em y}]The lower y starting point of where the text will be drawn from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_d326c9c69e0f7128ced33c5544b31708}{
+\index{ResourceMgr@{ResourceMgr}!drawText@{drawText}}
+\index{drawText@{drawText}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawText}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawText (string {\em alias}, \/  unsigned int {\em numText}, \/  double {\em x}, \/  double {\em y})}}
+\label{class_resource_mgr_d326c9c69e0f7128ced33c5544b31708}
+
+
+Draws an unsigned integer to the screen starting at specified values. 
+
+Draws the unsigned integer to the screen with the lower left starting point of the text provided. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The reference name of the font previously loaded. \item[{\em numText}]The unsigned integer that is desired to be outputted to the screen. \item[{\em x}]The left x starting point of where the text will be drawn from. \item[{\em y}]The lower y starting point of where the text will be drawn from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_410b4d2bae7cd991d1f7095a7458ec30}{
+\index{ResourceMgr@{ResourceMgr}!drawText@{drawText}}
+\index{drawText@{drawText}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawText}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawText (string {\em alias}, \/  int {\em numText}, \/  double {\em x}, \/  double {\em y})}}
+\label{class_resource_mgr_410b4d2bae7cd991d1f7095a7458ec30}
+
+
+Draws an integer to the screen starting at specified values. 
+
+Draws the integer to the screen with the lower left starting point of the text provided. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The reference name of the font previously loaded. \item[{\em numText}]The integer that is desired to be outputted to the screen. \item[{\em x}]The left x starting point of where the text will be drawn from. \item[{\em y}]The lower y starting point of where the text will be drawn from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_4660091df459dc3d0932663aa9156591}{
+\index{ResourceMgr@{ResourceMgr}!drawText@{drawText}}
+\index{drawText@{drawText}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawText}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawText (string {\em alias}, \/  string {\em text}, \/  double {\em x}, \/  double {\em y})}}
+\label{class_resource_mgr_4660091df459dc3d0932663aa9156591}
+
+
+Draws character text to the screen starting at specified values. 
+
+Draws the string text to the screen with the lower left starting point of the text provided. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The reference name of the font previously loaded. \item[{\em text}]The string of characters that is desired to be outputted to the screen. \item[{\em x}]The left x starting point of where the text will be drawn from. \item[{\em y}]The lower y starting point of where the text will be drawn from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_2be88222637af2030e608e397cfdd89b}{
+\index{ResourceMgr@{ResourceMgr}!drawTextOverlay@{drawTextOverlay}}
+\index{drawTextOverlay@{drawTextOverlay}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawTextOverlay}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawTextOverlay (string {\em alias}, \/  double {\em numText}, \/  double {\em percentX}, \/  double {\em percentY})}}
+\label{class_resource_mgr_2be88222637af2030e608e397cfdd89b}
+
+
+Draws a double to the screen starting at specified screen percentages. 
+
+Draws the double to the screen with the lower left starting point percentage of the screen to begin drawing the text. The text will be drawin in the same spot regardless the coordinate system. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The reference name of the font previously loaded. \item[{\em numText}]The double that is desired to be outputted to the screen. \item[{\em percentX}]The left x percentage of the screen where the text will be drawn from. Values range from 0.0 to 1.0. 0.0 is the left side of the screen. 1.0 is the right side. \item[{\em y}]The lower y starting point of where the text will be drawn from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_180e76776a6818756cfacb4fe0c2e430}{
+\index{ResourceMgr@{ResourceMgr}!drawTextOverlay@{drawTextOverlay}}
+\index{drawTextOverlay@{drawTextOverlay}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawTextOverlay}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawTextOverlay (string {\em alias}, \/  unsigned int {\em numText}, \/  double {\em percentX}, \/  double {\em percentY})}}
+\label{class_resource_mgr_180e76776a6818756cfacb4fe0c2e430}
+
+
+Draws an unsigned integer to the screen starting at specified screen percentages. 
+
+Draws the unsigned integer to the screen with the lower left starting point percentage of the screen to begin drawing the text. The text will be drawin in the same spot regardless the coordinate system. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The reference name of the font previously loaded. \item[{\em numText}]The unsigned integer that is desired to be outputted to the screen. \item[{\em percentX}]The left x percentage of the screen where the text will be drawn from. Values range from 0.0 to 1.0. 0.0 is the left side of the screen. 1.0 is the right side. \item[{\em y}]The lower y starting point of where the text will be drawn from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_45f157d11c70e86e4334b4378e1b8ac6}{
+\index{ResourceMgr@{ResourceMgr}!drawTextOverlay@{drawTextOverlay}}
+\index{drawTextOverlay@{drawTextOverlay}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawTextOverlay}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawTextOverlay (string {\em alias}, \/  int {\em numText}, \/  double {\em percentX}, \/  double {\em percentY})}}
+\label{class_resource_mgr_45f157d11c70e86e4334b4378e1b8ac6}
+
+
+Draws an integer to the screen starting at specified screen percentages. 
+
+Draws the integer to the screen with the lower left starting point percentage of the screen to begin drawing the text. The text will be drawin in the same spot regardless the coordinate system. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The reference name of the font previously loaded. \item[{\em numText}]The integer that is desired to be outputted to the screen. \item[{\em percentX}]The left x percentage of the screen where the text will be drawn from. Values range from 0.0 to 1.0. 0.0 is the left side of the screen. 1.0 is the right side. \item[{\em y}]The lower y starting point of where the text will be drawn from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_cc2c71fee0d3218a25c1b5fceb6dca46}{
+\index{ResourceMgr@{ResourceMgr}!drawTextOverlay@{drawTextOverlay}}
+\index{drawTextOverlay@{drawTextOverlay}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{drawTextOverlay}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::drawTextOverlay (string {\em alias}, \/  string {\em text}, \/  double {\em percentX}, \/  double {\em percentY})}}
+\label{class_resource_mgr_cc2c71fee0d3218a25c1b5fceb6dca46}
+
+
+Draws character text to the screen starting at specified screen percentages. 
+
+Draws the string text to the screen with the lower left starting point percentage of the screen to begin drawing the text. The text will be drawin in the same spot regardless the coordinate system. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The reference name of the font previously loaded. \item[{\em text}]The string of characters that is desired to be outputted to the screen. \item[{\em percentX}]The left x percentage of the screen where the text will be drawn from. Values range from 0.0 to 1.0. 0.0 is the left side of the screen. 1.0 is the right side. \item[{\em y}]The lower y starting point of where the text will be drawn from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_cdafe80888ac74a8eee3665b3cc31029}{
+\index{ResourceMgr@{ResourceMgr}!fadeOutMusic@{fadeOutMusic}}
+\index{fadeOutMusic@{fadeOutMusic}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{fadeOutMusic}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::fadeOutMusic (int {\em miliSecs})}}
+\label{class_resource_mgr_cdafe80888ac74a8eee3665b3cc31029}
+
+
+Fades out music over a given time. 
+
+Will fade out any music playing over the time of the given amount of miliseconds. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em miliSecs}]The number of miliseconds it takes to fully fade out the music playing. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_ec5d2a10ae64caa3ad718ba9881acd0a}{
+\index{ResourceMgr@{ResourceMgr}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{getInstance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ResourceMgr} $\ast$ ResourceMgr::getInstance ()\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{class_resource_mgr_ec5d2a10ae64caa3ad718ba9881acd0a}
+
+
+Gets the instance of the \hyperlink{class_resource_mgr}{ResourceMgr} object. 
+
+Use this to obtain the instance of the \hyperlink{class_resource_mgr}{ResourceMgr} object. \begin{Desc}
+\item[Returns:]ResourceMgr$\ast$ A pointer to the instance of the \hyperlink{class_resource_mgr}{ResourceMgr} object. \end{Desc}
+\hypertarget{class_resource_mgr_58fc2207c264aa0bd958c4e1a6fe3307}{
+\index{ResourceMgr@{ResourceMgr}!loadFont@{loadFont}}
+\index{loadFont@{loadFont}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{loadFont}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::loadFont (string {\em filename}, \/  string {\em alias}, \/  int {\em size})}}
+\label{class_resource_mgr_58fc2207c264aa0bd958c4e1a6fe3307}
+
+
+Loads an font file. 
+
+Loads an font file into memory so that it can be drawn later. This can be a TTF or RTF file. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The exact location of the font file. Can use a reference or a direct location as a location for the file. Example: \char`\"{}./fonts/arial.ttf\char`\"{} Means the file will be found in the running directory under the folder \char`\"{}fonts\char`\"{}. \item[{\em alias}]The name that will be used to reference the font later when wanting to draw text with it. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_c1db8b4941088c629ec264d6431ad68f}{
+\index{ResourceMgr@{ResourceMgr}!loadImage@{loadImage}}
+\index{loadImage@{loadImage}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{loadImage}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::loadImage (string {\em filename}, \/  string {\em alias})}}
+\label{class_resource_mgr_c1db8b4941088c629ec264d6431ad68f}
+
+
+Loads an image file. 
+
+Loads an image file into memory so that it can be drawn later. This can be a BMP, JPEG, GIF, PNG, TIFF, TGA filetype. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The exact location of the image file. Can use a reference or a direct location as a location for the file. Example: \char`\"{}./images/background.png\char`\"{} Means the file will be found in the running directory under the folder \char`\"{}images\char`\"{}. \item[{\em alias}]The name that will be used to reference the image later when wanting to draw it. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_3511f45844dc761fce18bcbb490b2782}{
+\index{ResourceMgr@{ResourceMgr}!loadMusic@{loadMusic}}
+\index{loadMusic@{loadMusic}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{loadMusic}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::loadMusic (string {\em filename}, \/  string {\em alias})}}
+\label{class_resource_mgr_3511f45844dc761fce18bcbb490b2782}
+
+
+Loads a music file. 
+
+Loads a music file into memory so that it can be played later. This can be a WAV, MP3, OGG, MIDI, and MOD files. Suggested not to use MP3's since there can be some problems with these files during playback. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The exact location of the music file. Can use a reference or a direct location as a location for the file. Example: \char`\"{}./music/backgroundmusic.ogg\char`\"{} Means the file will be found in the running directory under the folder \char`\"{}music\char`\"{}. \item[{\em alias}]The name that will be used to reference the music later when wanting to play it back. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_b77815b1a5db3d233a519a65c129c6f5}{
+\index{ResourceMgr@{ResourceMgr}!loadSound@{loadSound}}
+\index{loadSound@{loadSound}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{loadSound}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::loadSound (string {\em filename}, \/  string {\em alias})}}
+\label{class_resource_mgr_b77815b1a5db3d233a519a65c129c6f5}
+
+
+Loads a sound file. 
+
+Loads a sound file into memory so that it can be played later. This should only be a WAV file. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The exact location of the WAV file. Can use a reference or a direct location as a location for the file. Example: \char`\"{}./sounds/boom.wav\char`\"{} Means the file will be found in the running directory under the folder \char`\"{}sounds\char`\"{}. \item[{\em alias}]The name that will be used to reference the sound later when wanting to play it back. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_f3b6d92284ff1e5e9238adbf810cbd48}{
+\index{ResourceMgr@{ResourceMgr}!pauseMusic@{pauseMusic}}
+\index{pauseMusic@{pauseMusic}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{pauseMusic}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::pauseMusic ()}}
+\label{class_resource_mgr_f3b6d92284ff1e5e9238adbf810cbd48}
+
+
+Pauses any music playing. 
+
+Will pause any music currently playing. A subsequent call resumeMusic will replay the song where you paused it. \hypertarget{class_resource_mgr_27e40623d8659a8ee488550a4f79913e}{
+\index{ResourceMgr@{ResourceMgr}!playMusic@{playMusic}}
+\index{playMusic@{playMusic}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{playMusic}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::playMusic (string {\em alias})}}
+\label{class_resource_mgr_27e40623d8659a8ee488550a4f79913e}
+
+
+Plays a music file. 
+
+Plays a music file that is referenced with the given alias. Will play this music file one play through and stop. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_3202543d74c502aeb3bd1990f1137236}{
+\index{ResourceMgr@{ResourceMgr}!playMusicFade@{playMusicFade}}
+\index{playMusicFade@{playMusicFade}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{playMusicFade}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::playMusicFade (string {\em alias}, \/  int {\em numLoops}, \/  int {\em miliSecs})}}
+\label{class_resource_mgr_3202543d74c502aeb3bd1990f1137236}
+
+
+Fades in a music file that plays multiple times. 
+
+Fades in a music file that is referenced with the given alias. Will play this music file as many of times as the number given into the function. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \item[{\em numLoops}]The number of times to play the song. 0 does not play it, 2 plays it 2 times, -1 plays it forever until the song is stopped or paused. \item[{\em miliSecs}]How many miliseconds it takes to fade into the song. At the end of that time, the music should be at full volume. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_ccdc08e8b11c17fb10ed93b7d51e45b0}{
+\index{ResourceMgr@{ResourceMgr}!playMusicFadeFrom@{playMusicFadeFrom}}
+\index{playMusicFadeFrom@{playMusicFadeFrom}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{playMusicFadeFrom}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::playMusicFadeFrom (string {\em alias}, \/  int {\em numLoops}, \/  double {\em position}, \/  int {\em miliSecs})}}
+\label{class_resource_mgr_ccdc08e8b11c17fb10ed93b7d51e45b0}
+
+
+Plays a music file multiple times while starting from a. 
+
+given position and fading in.
+
+Plays a music file that is referenced with the given alias. The song will start at a given amount of seconds into the song while fading in for a given amount of miliseconds. Will play this music file as many of times as the number given into the function. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \item[{\em numLoops}]The number of times to play the song. 0 does not play it, 2 plays it 2 times, -1 plays it forever until the song is stopped or paused. \item[{\em position}]The number of seconds into the song to start playing from. \item[{\em miliSecs}]How many miliseconds it takes to fade into the song. At the end of that time, the music should be at full volume. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_828047831e8668f7189770e45afa50c3}{
+\index{ResourceMgr@{ResourceMgr}!playMusicFrom@{playMusicFrom}}
+\index{playMusicFrom@{playMusicFrom}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{playMusicFrom}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::playMusicFrom (string {\em alias}, \/  int {\em numLoops}, \/  double {\em position})}}
+\label{class_resource_mgr_828047831e8668f7189770e45afa50c3}
+
+
+Plays a music file multiple times while starting from a given position. 
+
+Plays a music file that is referenced with the given alias. The song will start at a given amount of seconds into the song. Will play this music file as many of times as the number given into the function. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \item[{\em numLoops}]The number of times to play the song. 0 does not play it, 2 plays it 2 times, -1 plays it forever until the song is stopped or paused. \item[{\em position}]The number of seconds into the song to start playing from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_c07602fe156a2903fa6bbcb679ef74ea}{
+\index{ResourceMgr@{ResourceMgr}!playMusicRepeat@{playMusicRepeat}}
+\index{playMusicRepeat@{playMusicRepeat}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{playMusicRepeat}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::playMusicRepeat (string {\em alias}, \/  int {\em numLoops})}}
+\label{class_resource_mgr_c07602fe156a2903fa6bbcb679ef74ea}
+
+
+Plays a music file multiple times. 
+
+Plays a music file that is referenced with the given alias. Will play this music file as many of times as the number given into the function. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \item[{\em numLoops}]The number of times to play the song. 0 does not play it, 2 plays it 2 times, -1 plays it forever until the song is stopped or paused. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_1122bf9ce3cbcebc6978efa63904dcac}{
+\index{ResourceMgr@{ResourceMgr}!playSound@{playSound}}
+\index{playSound@{playSound}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{playSound}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::playSound (string {\em alias})}}
+\label{class_resource_mgr_1122bf9ce3cbcebc6978efa63904dcac}
+
+
+Plays a sound at full volume through all speakers. 
+
+Plays the sound that identifies with the alias given through all the speakers at full volume. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the sounds file. Should match the alias that was passed in during loadSound for that sound. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_9b916235594f034f55da0570182ca429}{
+\index{ResourceMgr@{ResourceMgr}!playSound3D@{playSound3D}}
+\index{playSound3D@{playSound3D}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{playSound3D}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::playSound3D (string {\em alias}, \/  double {\em xEar}, \/  double {\em yEar}, \/  double {\em xSrc}, \/  double {\em ySrc})}}
+\label{class_resource_mgr_9b916235594f034f55da0570182ca429}
+
+
+Plays a sound through the speakers at a given location. 
+
+Plays a sound through the speakers with the correct volume and location that matches the ear and location of the sound. Sounds that come from the left side of the ear will come through mostly the left speaker. The farther away a sound is from the ear, the fainter the sound will be. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the sound file. Should match the alias that was passed in during loadSound for that sound. \item[{\em xEar}]The x location of the listening ear. \item[{\em yEar}]The y location of the listening ear. \item[{\em xSrc}]The x location of where the sound is originating from. \item[{\em ySrc}]The y location of where the sound is originating from. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_df71591bd5706857b2964efc9ab9aad0}{
+\index{ResourceMgr@{ResourceMgr}!release@{release}}
+\index{release@{release}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{release}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::release ()}}
+\label{class_resource_mgr_df71591bd5706857b2964efc9ab9aad0}
+
+
+Releases the instance of the \hyperlink{class_resource_mgr}{ResourceMgr} object obtained. 
+
+Release the instance of the \hyperlink{class_resource_mgr}{ResourceMgr} obtained from \hyperlink{class_resource_mgr_ec5d2a10ae64caa3ad718ba9881acd0a}{getInstance()}. This must be called on the pointer obtained from \hyperlink{class_resource_mgr_ec5d2a10ae64caa3ad718ba9881acd0a}{getInstance()} to ensure that no memory leaks occur and that the \hyperlink{class_resource_mgr}{ResourceMgr} object is destroyed when nobody has an instance of the object. \hypertarget{class_resource_mgr_f05542181d4d0464f549a1acac304151}{
+\index{ResourceMgr@{ResourceMgr}!resumeMusic@{resumeMusic}}
+\index{resumeMusic@{resumeMusic}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{resumeMusic}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::resumeMusic ()}}
+\label{class_resource_mgr_f05542181d4d0464f549a1acac304151}
+
+
+Resumes any paused music. 
+
+Will resume any music that was paused. Calling this on non-paused music does nothing. \hypertarget{class_resource_mgr_d1461da9add565c7a7c363da051c8111}{
+\index{ResourceMgr@{ResourceMgr}!setMaxFullHearDistance@{setMaxFullHearDistance}}
+\index{setMaxFullHearDistance@{setMaxFullHearDistance}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{setMaxFullHearDistance}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::setMaxFullHearDistance (double {\em distance})}}
+\label{class_resource_mgr_d1461da9add565c7a7c363da051c8111}
+
+
+Sets the maximum distance that a sound is still heard at full volume. 
+
+Sets the maximum distance that a sound can be while still being able to hear it at full volume. Anything closer than that distance is still heard at full volume. Everything futher than this distance will sound fainter the farther it is away. \hypertarget{class_resource_mgr_79ba3b60c9aa385d450bb29e6404582f}{
+\index{ResourceMgr@{ResourceMgr}!setMaxSoundDistance@{setMaxSoundDistance}}
+\index{setMaxSoundDistance@{setMaxSoundDistance}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{setMaxSoundDistance}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::setMaxSoundDistance (double {\em distance})}}
+\label{class_resource_mgr_79ba3b60c9aa385d450bb29e6404582f}
+
+
+Sets the maximum distance to where 3D sound is heard. 
+
+Sets the maximum distance a sound can be playing while still being heard. The closer a sound is to the given distance, the fainter it sounds. If the sound is at or farther than the distance given, that sound will not be heard.
+
+This only effects when you use playSound3D \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em distance}]The maximum amount of distance that 3D sounds can be heard. \end{description}
+\end{Desc}
+\hypertarget{class_resource_mgr_c6c4165497719f7c5c523decb5dfe5fa}{
+\index{ResourceMgr@{ResourceMgr}!stopMusic@{stopMusic}}
+\index{stopMusic@{stopMusic}!ResourceMgr@{ResourceMgr}}
+\subsubsection[{stopMusic}]{\setlength{\rightskip}{0pt plus 5cm}void ResourceMgr::stopMusic ()}}
+\label{class_resource_mgr_c6c4165497719f7c5c523decb5dfe5fa}
+
+
+Stops any playing music. 
+
+Will stop any music currently playing. Once stopped the song cannot be started again unless using playMusic or any of its counterparts that do fading and looping. 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+\hyperlink{resourcemgr_8h}{resourcemgr.h}\item 
+resourcemgr.cpp\end{CompactItemize}

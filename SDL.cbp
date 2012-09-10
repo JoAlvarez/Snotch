@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Snotch" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\Snotch" prefix_auto="1" extension_auto="1" />
+				<Option working_dir=".\bin\Release\" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-g" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="libs\SDL_image.lib" />
+			<Add library="libs\libfreetype.dll.a" />
+			<Add library="libs\SDL_ttf.lib" />
+			<Add library="libs\SDL_mixer.lib" />
+			<Add library="libs\libpng.lib" />
+		</Linker>
+		<Unit filename="abilities.cpp" />
+		<Unit filename="abilities.h" />
+		<Unit filename="actionbar.cpp" />
+		<Unit filename="actionbar.h" />
+		<Unit filename="ai.cpp" />
+		<Unit filename="ai.h" />
+		<Unit filename="aimindicator.cpp" />
+		<Unit filename="aimindicator.h" />
+		<Unit filename="animationmgr.cpp" />
+		<Unit filename="animationmgr.h" />
+		<Unit filename="animationsheet.cpp" />
+		<Unit filename="animationsheet.h" />
+		<Unit filename="audio.cpp" />
+		<Unit filename="audio.h" />
+		<Unit filename="background.cpp" />
+		<Unit filename="background.h" />
+		<Unit filename="barrel.cpp" />
+		<Unit filename="barrel.h" />
+		<Unit filename="bin\Release\data\levels\background\nighttime.bk" />
+		<Unit filename="clickable.cpp" />
+		<Unit filename="clickable.h" />
+		<Unit filename="cooldown.cpp" />
+		<Unit filename="cooldown.h" />
+		<Unit filename="currentstatenode.cpp" />
+		<Unit filename="currentstatenode.h" />
+		<Unit filename="cursor.cpp" />
+		<Unit filename="cursor.h" />
+		<Unit filename="detectable.cpp" />
+		<Unit filename="detectable.h" />
+		<Unit filename="door.cpp" />
+		<Unit filename="door.h" />
+		<Unit filename="draggable.cpp" />
+		<Unit filename="draggable.h" />
+		<Unit filename="enemy.cpp" />
+		<Unit filename="enemy.h" />
+		<Unit filename="filenames.h" />
+		<Unit filename="font.cpp" />
+		<Unit filename="font.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="gameobjects.cpp" />
+		<Unit filename="gameobjects.h" />
+		<Unit filename="global.h" />
+		<Unit filename="healthbar.cpp" />
+		<Unit filename="healthbar.h" />
+		<Unit filename="image.cpp" />
+		<Unit filename="image.h" />
+		<Unit filename="ingamebutton.cpp" />
+		<Unit filename="ingamebutton.h" />
+		<Unit filename="input.cpp" />
+		<Unit filename="input.h" />
+		<Unit filename="joystick.cpp" />
+		<Unit filename="joystick.h" />
+		<Unit filename="levelentities.cpp" />
+		<Unit filename="levelentities.h" />
+		<Unit filename="levelobjects.cpp" />
+		<Unit filename="levelobjects.h" />
+		<Unit filename="livesbar.cpp" />
+		<Unit filename="livesbar.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mathfunctions.cpp" />
+		<Unit filename="mathfunctions.h" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="music.cpp" />
+		<Unit filename="music.h" />
+		<Unit filename="object.cc" />
+		<Unit filename="object.h" />
+		<Unit filename="optionsmenu.cpp" />
+		<Unit filename="optionsmenu.h" />
+		<Unit filename="physics.cpp" />
+		<Unit filename="physics.h" />
+		<Unit filename="point.cpp" />
+		<Unit filename="point.h" />
+		<Unit filename="powers.cpp" />
+		<Unit filename="powers.h" />
+		<Unit filename="resourcemgr.cpp" />
+		<Unit filename="resourcemgr.h" />
+		<Unit filename="snotch.cpp" />
+		<Unit filename="snotch.h" />
+		<Unit filename="sound.cpp" />
+		<Unit filename="sound.h" />
+		<Unit filename="startmenu.cpp" />
+		<Unit filename="startmenu.h" />
+		<Unit filename="stateproperties.h" />
+		<Unit filename="thoughtbubble.cpp" />
+		<Unit filename="thoughtbubble.h" />
+		<Unit filename="timer.cpp" />
+		<Unit filename="timer.h" />
+		<Unit filename="trigger.cpp" />
+		<Unit filename="trigger.h" />
+		<Unit filename="triggerable.cpp" />
+		<Unit filename="triggerable.h" />
+		<Unit filename="triggerablelist.cpp" />
+		<Unit filename="triggerablelist.h" />
+		<Unit filename="window.cpp" />
+		<Unit filename="window.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" do_auto_increment="1" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,329 @@
+\hypertarget{class_audio}{
+\section{Audio Class Reference}
+\label{class_audio}\index{Audio@{Audio}}
+}
+File for the audio class.  
+
+
+{\tt \#include $<$audio.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{class_audio_a9d3935a2b91ab4b825bc0cb05f245ea}{
+\hyperlink{class_audio_a9d3935a2b91ab4b825bc0cb05f245ea}{Audio} ()}
+\label{class_audio_a9d3935a2b91ab4b825bc0cb05f245ea}
+
+\begin{CompactList}\small\item\em Default Constructor for the \hyperlink{class_audio}{Audio} class. \item\end{CompactList}\item 
+void \hyperlink{class_audio_bd850ac47b52b4e43dfcbbc627162728}{init} ()
+\begin{CompactList}\small\item\em Initializes the audio components. \item\end{CompactList}\item 
+void \hyperlink{class_audio_8104ba39add67a27e07d16693e5b1569}{close} ()
+\begin{CompactList}\small\item\em Shuts down the audio components. \item\end{CompactList}\item 
+void \hyperlink{class_audio_5a9d44cfe20149b5266ec38c05b80134}{loadSound} (string filename, string alias)
+\begin{CompactList}\small\item\em Loads a sound file. \item\end{CompactList}\item 
+void \hyperlink{class_audio_3189dc36941d6049a6f106d9b9682bf8}{loadMusic} (string filename, string alias)
+\begin{CompactList}\small\item\em Loads a music file. \item\end{CompactList}\item 
+void \hyperlink{class_audio_92dbc4a10cc3246c2b9e64de945e8bb4}{playSound} (string alias)
+\begin{CompactList}\small\item\em Plays a sound at full volume through all speakers. \item\end{CompactList}\item 
+void \hyperlink{class_audio_6d08aba180fb15e764d1c983c1fbba4c}{playSound3D} (string alias, double xEar, double yEar, double xSrc, double ySrc)
+\begin{CompactList}\small\item\em Plays a sound through the speakers at a given location. \item\end{CompactList}\item 
+void \hyperlink{class_audio_bd144ca5357828282ba0a6b328d770b7}{playMusic} (string alias)
+\begin{CompactList}\small\item\em Plays a music file. \item\end{CompactList}\item 
+void \hyperlink{class_audio_a9ec7ff20da8b33428d39b0262743dac}{playMusicRepeat} (string alias, int numLoops)
+\begin{CompactList}\small\item\em Plays a music file multiple times. \item\end{CompactList}\item 
+void \hyperlink{class_audio_10bf7c77227aba561ddb6e5870cc092d}{playMusicFade} (string alias, int numLoops, int miliSecs)
+\begin{CompactList}\small\item\em Fades in a music file that plays multiple times. \item\end{CompactList}\item 
+void \hyperlink{class_audio_c2b309bce1a1ffe3560f34a8a6027597}{playMusicFrom} (string alias, double position, int numLoops)
+\begin{CompactList}\small\item\em Plays a music file multiple times while starting from a given position. \item\end{CompactList}\item 
+void \hyperlink{class_audio_0d60e2b77d91abc362f46dcf0a11325f}{playMusicFadeFrom} (string alias, double position, int numLoops, int miliSecs)
+\begin{CompactList}\small\item\em Plays a music file multiple times while starting from a given position and fading in. \item\end{CompactList}\item 
+void \hyperlink{class_audio_8903a4e19354aa20cee9bbe10eb98004}{pauseMusic} ()
+\begin{CompactList}\small\item\em Pauses any music playing. \item\end{CompactList}\item 
+void \hyperlink{class_audio_0be741f8374145f05250c8adaaa2b0d9}{resumeMusic} ()
+\begin{CompactList}\small\item\em Resumes any paused music. \item\end{CompactList}\item 
+void \hyperlink{class_audio_1429d9251b77a334ac9ecb071d0936f5}{stopMusic} ()
+\begin{CompactList}\small\item\em Stops any playing music. \item\end{CompactList}\item 
+void \hyperlink{class_audio_3dd19311958192e1099d06dcb471e45e}{fadeOutMusic} (int miliSecs)
+\begin{CompactList}\small\item\em Fades out music over a given time. \item\end{CompactList}\item 
+void \hyperlink{class_audio_5d139a257adfe6cfe3b3aace9b9c4259}{setMaxSoundDistance} (double distance)
+\begin{CompactList}\small\item\em Sets the maximum distance to where 3D sound is heard. \item\end{CompactList}\item 
+void \hyperlink{class_audio_dad7a00ceb96ae0771e9565ec5782f94}{setMaxFullHearDistance} (double distance)
+\begin{CompactList}\small\item\em Sets the maximum distance that a sound is still heard at full volume. \item\end{CompactList}\item 
+void \hyperlink{class_audio_b5337dc70b4652d2065af503da72ca4f}{deleteAllMusic} ()
+\begin{CompactList}\small\item\em Frees all loaded music from memory. \item\end{CompactList}\item 
+void \hyperlink{class_audio_4ba9968ef82a1a0f5194898a734dfaa1}{deleteAllSounds} ()
+\begin{CompactList}\small\item\em Frees all loaded sounds from memory. \item\end{CompactList}\item 
+void \hyperlink{class_audio_45c7697fe1e5d1fc2f021121718baf76}{deleteMusic} (string alias)
+\begin{CompactList}\small\item\em Frees a specific music from memory. \item\end{CompactList}\item 
+void \hyperlink{class_audio_5ae8b89e7f43bd9122be714aedece488}{deleteSound} (string alias)
+\begin{CompactList}\small\item\em Frees a specific sound from memory. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+File for the audio class. 
+
+This will take care of all the loading and playing of sound and music files that are used for the program. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_audio_8104ba39add67a27e07d16693e5b1569}{
+\index{Audio@{Audio}!close@{close}}
+\index{close@{close}!Audio@{Audio}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::close ()}}
+\label{class_audio_8104ba39add67a27e07d16693e5b1569}
+
+
+Shuts down the audio components. 
+
+This should be called prior to the program ending to ensure that all the audio resources are freed from the computer. \hypertarget{class_audio_b5337dc70b4652d2065af503da72ca4f}{
+\index{Audio@{Audio}!deleteAllMusic@{deleteAllMusic}}
+\index{deleteAllMusic@{deleteAllMusic}!Audio@{Audio}}
+\subsubsection[{deleteAllMusic}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::deleteAllMusic ()}}
+\label{class_audio_b5337dc70b4652d2065af503da72ca4f}
+
+
+Frees all loaded music from memory. 
+
+This will unload all the loaded music from memory. Any want to play music after this requires reloading music using the loadMusic function. \hypertarget{class_audio_4ba9968ef82a1a0f5194898a734dfaa1}{
+\index{Audio@{Audio}!deleteAllSounds@{deleteAllSounds}}
+\index{deleteAllSounds@{deleteAllSounds}!Audio@{Audio}}
+\subsubsection[{deleteAllSounds}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::deleteAllSounds ()}}
+\label{class_audio_4ba9968ef82a1a0f5194898a734dfaa1}
+
+
+Frees all loaded sounds from memory. 
+
+This will unload all the loaded sounds from memory. Any want to play sounds after this requires reloading the sounds using the loadSound function. \hypertarget{class_audio_45c7697fe1e5d1fc2f021121718baf76}{
+\index{Audio@{Audio}!deleteMusic@{deleteMusic}}
+\index{deleteMusic@{deleteMusic}!Audio@{Audio}}
+\subsubsection[{deleteMusic}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::deleteMusic (string {\em alias})}}
+\label{class_audio_45c7697fe1e5d1fc2f021121718baf76}
+
+
+Frees a specific music from memory. 
+
+This will unload the music that matches the given alias from memory. Any want to play this music afterward requires reloading it using loadMusic. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \end{description}
+\end{Desc}
+\hypertarget{class_audio_5ae8b89e7f43bd9122be714aedece488}{
+\index{Audio@{Audio}!deleteSound@{deleteSound}}
+\index{deleteSound@{deleteSound}!Audio@{Audio}}
+\subsubsection[{deleteSound}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::deleteSound (string {\em alias})}}
+\label{class_audio_5ae8b89e7f43bd9122be714aedece488}
+
+
+Frees a specific sound from memory. 
+
+This will unload the sound that matches the given alias from memory. Any want to play this sound afterward requires reloading it using loadSound. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the sound file. Should match the alias that was passed in during loadSound for that sound. \end{description}
+\end{Desc}
+\hypertarget{class_audio_3dd19311958192e1099d06dcb471e45e}{
+\index{Audio@{Audio}!fadeOutMusic@{fadeOutMusic}}
+\index{fadeOutMusic@{fadeOutMusic}!Audio@{Audio}}
+\subsubsection[{fadeOutMusic}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::fadeOutMusic (int {\em miliSecs})}}
+\label{class_audio_3dd19311958192e1099d06dcb471e45e}
+
+
+Fades out music over a given time. 
+
+Will fade out any music playing over the time of the given amount of miliseconds. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em miliSecs}]The number of miliseconds it takes to fully fade out the music playing. \end{description}
+\end{Desc}
+\hypertarget{class_audio_bd850ac47b52b4e43dfcbbc627162728}{
+\index{Audio@{Audio}!init@{init}}
+\index{init@{init}!Audio@{Audio}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::init ()}}
+\label{class_audio_bd850ac47b52b4e43dfcbbc627162728}
+
+
+Initializes the audio components. 
+
+This must be called prior to loading or playing any sound or music files. Nothing will play if this function is not called. \hypertarget{class_audio_3189dc36941d6049a6f106d9b9682bf8}{
+\index{Audio@{Audio}!loadMusic@{loadMusic}}
+\index{loadMusic@{loadMusic}!Audio@{Audio}}
+\subsubsection[{loadMusic}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::loadMusic (string {\em filename}, \/  string {\em alias})}}
+\label{class_audio_3189dc36941d6049a6f106d9b9682bf8}
+
+
+Loads a music file. 
+
+Loads a music file into memory so that it can be played later. This can be a WAV, MP3, OGG, MIDI, and MOD files. Suggested not to use MP3's since there can be some problems with these files during playback. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The exact location of the music file. Can use a reference or a direct location as a location for the file. Example: \char`\"{}./music/backgroundmusic.ogg\char`\"{} Means the file will be found in the running directory under the folder \char`\"{}music\char`\"{}. \item[{\em alias}]The name that will be used to reference the music later when wanting to play it back. \end{description}
+\end{Desc}
+\hypertarget{class_audio_5a9d44cfe20149b5266ec38c05b80134}{
+\index{Audio@{Audio}!loadSound@{loadSound}}
+\index{loadSound@{loadSound}!Audio@{Audio}}
+\subsubsection[{loadSound}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::loadSound (string {\em filename}, \/  string {\em alias})}}
+\label{class_audio_5a9d44cfe20149b5266ec38c05b80134}
+
+
+Loads a sound file. 
+
+Loads a sound file into memory so that it can be played later. This should only be a WAV file. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The exact location of the WAV file. Can use a reference or a direct location as a location for the file. Example: \char`\"{}./sounds/boom.wav\char`\"{} Means the file will be found in the running directory under the folder \char`\"{}sounds\char`\"{}. \item[{\em alias}]The name that will be used to reference the sound later when wanting to play it back. \end{description}
+\end{Desc}
+\hypertarget{class_audio_8903a4e19354aa20cee9bbe10eb98004}{
+\index{Audio@{Audio}!pauseMusic@{pauseMusic}}
+\index{pauseMusic@{pauseMusic}!Audio@{Audio}}
+\subsubsection[{pauseMusic}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::pauseMusic ()}}
+\label{class_audio_8903a4e19354aa20cee9bbe10eb98004}
+
+
+Pauses any music playing. 
+
+Will pause any music currently playing. A subsequent call resumeMusic will replay the song where you paused it. \hypertarget{class_audio_bd144ca5357828282ba0a6b328d770b7}{
+\index{Audio@{Audio}!playMusic@{playMusic}}
+\index{playMusic@{playMusic}!Audio@{Audio}}
+\subsubsection[{playMusic}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::playMusic (string {\em alias})}}
+\label{class_audio_bd144ca5357828282ba0a6b328d770b7}
+
+
+Plays a music file. 
+
+Plays a music file that is referenced with the given alias. Will play this music file one play through and stop. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \end{description}
+\end{Desc}
+\hypertarget{class_audio_10bf7c77227aba561ddb6e5870cc092d}{
+\index{Audio@{Audio}!playMusicFade@{playMusicFade}}
+\index{playMusicFade@{playMusicFade}!Audio@{Audio}}
+\subsubsection[{playMusicFade}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::playMusicFade (string {\em alias}, \/  int {\em numLoops}, \/  int {\em miliSecs})}}
+\label{class_audio_10bf7c77227aba561ddb6e5870cc092d}
+
+
+Fades in a music file that plays multiple times. 
+
+Fades in a music file that is referenced with the given alias. Will play this music file as many of times as the number given into the function. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \item[{\em numLoops}]The number of times to play the song. 0 does not play it, 2 plays it 2 times, -1 plays it forever until the song is stopped or paused. \item[{\em miliSecs}]How many miliseconds it takes to fade into the song. At the end of that time, the music should be at full volume. \end{description}
+\end{Desc}
+\hypertarget{class_audio_0d60e2b77d91abc362f46dcf0a11325f}{
+\index{Audio@{Audio}!playMusicFadeFrom@{playMusicFadeFrom}}
+\index{playMusicFadeFrom@{playMusicFadeFrom}!Audio@{Audio}}
+\subsubsection[{playMusicFadeFrom}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::playMusicFadeFrom (string {\em alias}, \/  double {\em position}, \/  int {\em numLoops}, \/  int {\em miliSecs})}}
+\label{class_audio_0d60e2b77d91abc362f46dcf0a11325f}
+
+
+Plays a music file multiple times while starting from a given position and fading in. 
+
+Plays a music file that is referenced with the given alias. The song will start at a given amount of seconds into the song while fading in for a given amount of miliseconds. Will play this music file as many of times as the number given into the function. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \item[{\em position}]The number of seconds into the song to start playing from. \item[{\em numLoops}]The number of times to play the song. 0 does not play it, 2 plays it 2 times, -1 plays it forever until the song is stopped or paused. \item[{\em miliSecs}]How many miliseconds it takes to fade into the song. At the end of that time, the music should be at full volume. \end{description}
+\end{Desc}
+\hypertarget{class_audio_c2b309bce1a1ffe3560f34a8a6027597}{
+\index{Audio@{Audio}!playMusicFrom@{playMusicFrom}}
+\index{playMusicFrom@{playMusicFrom}!Audio@{Audio}}
+\subsubsection[{playMusicFrom}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::playMusicFrom (string {\em alias}, \/  double {\em position}, \/  int {\em numLoops})}}
+\label{class_audio_c2b309bce1a1ffe3560f34a8a6027597}
+
+
+Plays a music file multiple times while starting from a given position. 
+
+Plays a music file that is referenced with the given alias. The song will start at a given amount of seconds into the song. Will play this music file as many of times as the number given into the function. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \item[{\em position}]The number of seconds into the song to start playing from. \item[{\em numLoops}]The number of times to play the song. 0 does not play it, 2 plays it 2 times, -1 plays it forever until the song is stopped or paused. \end{description}
+\end{Desc}
+\hypertarget{class_audio_a9ec7ff20da8b33428d39b0262743dac}{
+\index{Audio@{Audio}!playMusicRepeat@{playMusicRepeat}}
+\index{playMusicRepeat@{playMusicRepeat}!Audio@{Audio}}
+\subsubsection[{playMusicRepeat}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::playMusicRepeat (string {\em alias}, \/  int {\em numLoops})}}
+\label{class_audio_a9ec7ff20da8b33428d39b0262743dac}
+
+
+Plays a music file multiple times. 
+
+Plays a music file that is referenced with the given alias. Will play this music file as many of times as the number given into the function. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the music file. Should match the alias that was passed in during loadMusic for that music. \item[{\em numLoops}]The number of times to play the song. 0 does not play it, 2 plays it 2 times, -1 plays it forever until the song is stopped or paused. \end{description}
+\end{Desc}
+\hypertarget{class_audio_92dbc4a10cc3246c2b9e64de945e8bb4}{
+\index{Audio@{Audio}!playSound@{playSound}}
+\index{playSound@{playSound}!Audio@{Audio}}
+\subsubsection[{playSound}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::playSound (string {\em alias})}}
+\label{class_audio_92dbc4a10cc3246c2b9e64de945e8bb4}
+
+
+Plays a sound at full volume through all speakers. 
+
+Plays the sound that identifies with the alias given through all the speakers at full volume. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the sounds file. Should match the alias that was passed in during loadSound for that sound. \end{description}
+\end{Desc}
+\hypertarget{class_audio_6d08aba180fb15e764d1c983c1fbba4c}{
+\index{Audio@{Audio}!playSound3D@{playSound3D}}
+\index{playSound3D@{playSound3D}!Audio@{Audio}}
+\subsubsection[{playSound3D}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::playSound3D (string {\em alias}, \/  double {\em xEar}, \/  double {\em yEar}, \/  double {\em xSrc}, \/  double {\em ySrc})}}
+\label{class_audio_6d08aba180fb15e764d1c983c1fbba4c}
+
+
+Plays a sound through the speakers at a given location. 
+
+Plays a sound through the speakers with the correct volume and location that matches the ear and location of the sound. Sounds that come from the left side of the ear will come through mostly the left speaker. The farther away a sound is from the ear, the fainter the sound will be. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alias}]The name that references the sound file. Should match the alias that was passed in during loadSound for that sound. \item[{\em xEar}]The x location of the listening ear. \item[{\em yEar}]The y location of the listening ear. \item[{\em xSrc}]The x location of where the sound is originating from. \item[{\em ySrc}]The y location of where the sound is originating from. \end{description}
+\end{Desc}
+\hypertarget{class_audio_0be741f8374145f05250c8adaaa2b0d9}{
+\index{Audio@{Audio}!resumeMusic@{resumeMusic}}
+\index{resumeMusic@{resumeMusic}!Audio@{Audio}}
+\subsubsection[{resumeMusic}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::resumeMusic ()}}
+\label{class_audio_0be741f8374145f05250c8adaaa2b0d9}
+
+
+Resumes any paused music. 
+
+Will resume any music that was paused. Calling this on non-paused music does nothing. \hypertarget{class_audio_dad7a00ceb96ae0771e9565ec5782f94}{
+\index{Audio@{Audio}!setMaxFullHearDistance@{setMaxFullHearDistance}}
+\index{setMaxFullHearDistance@{setMaxFullHearDistance}!Audio@{Audio}}
+\subsubsection[{setMaxFullHearDistance}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::setMaxFullHearDistance (double {\em distance})}}
+\label{class_audio_dad7a00ceb96ae0771e9565ec5782f94}
+
+
+Sets the maximum distance that a sound is still heard at full volume. 
+
+Sets the maximum distance that a sound can be while still being able to hear it at full volume. Anything closer than that distance is still heard at full volume. Everything futher than this distance will sound fainter the farther it is away. \hypertarget{class_audio_5d139a257adfe6cfe3b3aace9b9c4259}{
+\index{Audio@{Audio}!setMaxSoundDistance@{setMaxSoundDistance}}
+\index{setMaxSoundDistance@{setMaxSoundDistance}!Audio@{Audio}}
+\subsubsection[{setMaxSoundDistance}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::setMaxSoundDistance (double {\em distance})}}
+\label{class_audio_5d139a257adfe6cfe3b3aace9b9c4259}
+
+
+Sets the maximum distance to where 3D sound is heard. 
+
+Sets the maximum distance a sound can be playing while still being heard. The closer a sound is to the given distance, the fainter it sounds. If the sound is at or farther than the distance given, that sound will not be heard.
+
+This only effects when you use playSound3D \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em distance}]The maximum amount of distance that 3D sounds can be heard. \end{description}
+\end{Desc}
+\hypertarget{class_audio_1429d9251b77a334ac9ecb071d0936f5}{
+\index{Audio@{Audio}!stopMusic@{stopMusic}}
+\index{stopMusic@{stopMusic}!Audio@{Audio}}
+\subsubsection[{stopMusic}]{\setlength{\rightskip}{0pt plus 5cm}void Audio::stopMusic ()}}
+\label{class_audio_1429d9251b77a334ac9ecb071d0936f5}
+
+
+Stops any playing music. 
+
+Will stop any music currently playing. Once stopped the song cannot be started again unless using playMusic or any of its counterparts that do fading and looping. 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+\hyperlink{audio_8h}{audio.h}\item 
+audio.cpp\end{CompactItemize}

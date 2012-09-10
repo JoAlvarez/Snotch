@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="abilities.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2029" topLine="0" />
+	</File>
+	<File name="animationmgr.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6184" topLine="74" />
+	</File>
+	<File name="animationmgr.h" open="0" top="0" tabpos="0">
+		<Cursor position="2656" topLine="37" />
+	</File>
+	<File name="animationsheet.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2837" topLine="73" />
+	</File>
+	<File name="animationsheet.h" open="0" top="0" tabpos="0">
+		<Cursor position="241" topLine="0" />
+	</File>
+	<File name="barrel.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="489" topLine="0" />
+	</File>
+	<File name="barrel.h" open="0" top="0" tabpos="5">
+		<Cursor position="147" topLine="0" />
+	</File>
+	<File name="font.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="304" />
+	</File>
+	<File name="game.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="9050" topLine="291" />
+	</File>
+	<File name="input.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="1066" />
+	</File>
+	<File name="object.cc" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="3" />
+	</File>
+	<File name="object.h" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="physics.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1447" topLine="0" />
+	</File>
+	<File name="physics.h" open="1" top="0" tabpos="4">
+		<Cursor position="1093" topLine="12" />
+	</File>
+	<File name="powers.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="692" topLine="0" />
+	</File>
+	<File name="snotch.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3052" topLine="111" />
+	</File>
+	<File name="timer.h" open="0" top="0" tabpos="4">
+		<Cursor position="1646" topLine="42" />
+	</File>
+</CodeBlocks_layout_file>

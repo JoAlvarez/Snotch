@@ -1,0 +1,78 @@
+# NIGHT TIME BG WITH A FULL MOON AND ROLLING FOG AND SILLOUGHETTES  
+begin
+texture= 	./data/images/treebackground.png
+xSpeed= 	0.3
+layer= 		5
+width= 		1600
+height= 	700
+leftX= 		0
+upperY= 	700
+xRepeat= 	true
+xNatSpeed= 	0.0
+
+# CLOUDS
+begin
+texture= 	./data/images/cloud.png
+xSpeed= 	0.5
+layer= 		4
+width= 		600
+height= 	400
+leftX= 		0
+upperY= 	600
+xRepeat= 	true
+xNatSpeed= 	5.0
+
+# ROLLING FOG
+begin
+texture= 	./data/images/fog.png
+xSpeed= 	0.5
+layer= 		3
+width= 		600
+height= 	600
+leftX= 		0
+upperY= 	600
+xRepeat= 	true
+xNatSpeed= 	100.0
+yNatSpeed=	10.0
+yRepeat=	upDown
+ySpeed=		1.0
+
+# STARS
+begin
+texture= 	./data/images/stars.png
+xSpeed= 	0.9
+layer= 		0
+width= 		400
+height= 	300
+leftX= 		0
+upperY= 	600
+xRepeat= 	true
+xNatSpeed= 	0.0
+yRepeat=	up
+ySpeed=		0.8
+
+
+# MOON
+begin
+texture= 	./data/images/moon.png
+xSpeed= 	0.9
+layer= 		1
+width= 		400
+height= 	400
+leftX= 		0
+upperY= 	700
+xRepeat= 	false
+xNatSpeed= 	2.0
+yNatSpeed=	2.0
+
+# FENCE
+begin
+texture= 	./data/images/fence.png
+xSpeed= 	0.7
+layer= 		2
+width= 		500
+height= 	150
+leftX= 		0
+upperY= 	150
+xRepeat= 	true
+xNatSpeed= 	0.0
